@@ -47,14 +47,14 @@
 }
 
 .menu > ul > li:hover {
-    background-image: url("mbuttonformhover.png");
+    background-image: url("../Images/mbuttonformhover.png");
     background-repeat: no-repeat;
     background-size: 215px 45px;
     background-position: center;
 }
 
 .menu > ul > li:active {
-    background-image: url("mbuttonform.png");
+    background-image: url("../Images/mbuttonform.png");
     background-repeat: no-repeat;
     background-size: 215px 45px;
     background-position: center;
@@ -64,21 +64,21 @@
    /* background-color: #fff059;
     background-repeat: no-repeat;
     background-size: 200px 45px;*/
-    background-image: url("mbutton.png");
+    background-image: url("../Images/mbutton.png");
     background-repeat: no-repeat;
     background-size:215px 80px;
     background-position: center;
 }
 
 .Clicked {
-    background-image: url("mbuttonform.png");
+    background-image: url("../Images/mbuttonform.png");
     background-repeat: no-repeat;
     background-size: 215px 45px;
     background-position: center;
 }
 
 .logoPozicija {
-    background-image: url("logo.png");
+    background-image: url("../Images/logo.png");
     background-size: 100%;
     background-repeat: no-repeat;
     width: 200px;
@@ -302,7 +302,7 @@ audio:hover{
     height: 25px;
     border: none;
     background: rgba(0,0,0,0);
-    background-image: url("mbuttonform.png");
+    background-image: url("../Images/mbuttonform.png");
     background-repeat: no-repeat;
     background-size: 75px 25px;
     background-position: center;
@@ -316,7 +316,7 @@ audio:hover{
     height: 25px;
     border: none;
     background: rgba(0,0,0,0);
-    background-image: url("mbuttonformhover.png");
+    background-image: url("../Images/mbuttonformhover.png");
     background-repeat: no-repeat;
     background-size: 75px 25px;
     background-position: center;
@@ -329,7 +329,7 @@ audio:hover{
     height: 25px;
     border: none;
     background: rgba(0,0,0,0);
-    background-image: url("mbuttonform.png");
+    background-image: url("../Images/mbuttonform.png");
     background-repeat: no-repeat;
     background-size: 75px 25px;
     background-position: center;
