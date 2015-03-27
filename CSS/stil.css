@@ -20,10 +20,9 @@
     background-color: #fff059;
     font-family: Lobster;
 
-
 }
 
-.menu > ul > li > a{
+.menu > ul > li > a {
     display: block;
     height: 35px;
     width: 200px;
@@ -42,7 +41,7 @@
     width: 200px;
     list-style-type: none;
     font-size: 30px;
-    margin-right:-2px ;
+    margin-right: -2px;
     margin-left: -2px;
 }
 
@@ -61,12 +60,12 @@
 }
 
 .notClicked {
-   /* background-color: #fff059;
-    background-repeat: no-repeat;
-    background-size: 200px 45px;*/
+    /* background-color: #fff059;
+     background-repeat: no-repeat;
+     background-size: 200px 45px;*/
     background-image: url("../Images/mbutton.png");
     background-repeat: no-repeat;
-    background-size:215px 80px;
+    background-size: 215px 80px;
     background-position: center;
 }
 
@@ -89,14 +88,14 @@
     z-index: -1;
 }
 
-.logoPozicija>p.test {
+.logoPozicija > p.test {
 
-        font-family: Fredericka the Great;
-        font-size: 72px;
-        color: white;
-        position: relative;
-        bottom: 150px;
-        right: -25px;
+    font-family: Fredericka the Great;
+    font-size: 72px;
+    color: white;
+    position: relative;
+    bottom: 150px;
+    right: -25px;
 }
 
 .mainOkvir {
@@ -192,36 +191,34 @@ caption {
 
 }
 
-th{
+th {
     padding-top: 40px;
     padding-bottom: 10px;
 }
 
-
-table,td,th {
+table, td, th {
     border-bottom: 1px solid white;
 }
 
-table{
+table {
     border-collapse: collapse;
 }
 
-.prazanRed>td{
+.prazanRed > td {
     height: 0px;
     border-bottom-color: rgba(255, 255, 255, 0);
 }
 
-
-th{
+th {
     text-align: center;
 }
 
-td{
+td {
     font-family: Arial;
     text-align: center;
 }
 
-td>a{
+td > a {
     text-decoration: none;
     color: yellow;
     font-weight: bolder;
@@ -229,11 +226,11 @@ td>a{
     display: block;
 
 }
-.opisTabela{
-    font-size:small;
+
+.opisTabela {
+    font-size: small;
     text-align: left;
 }
-
 
 .mainOkvir1 {
     padding: 20px;
@@ -247,61 +244,64 @@ td>a{
     font-size: 85%;
     margin-left: 20px;
 }
+
 .mainOkvirForma {
     padding: 20px;
     width: 600px;
     height: 320px;
-    margin:auto;
-    margin-top:100px;
+    margin: auto;
+    margin-top: 100px;
     background: rgba(0, 0, 0, 0.6);
     color: white;
     font-family: Rockwell;
     font-size: 85%;
-    position:relative;
+    position: relative;
 }
 
-audio{
+audio {
 
     position: fixed;
     top: 20px;
-    left:0;
-    width:45px;
+    left: 0;
+    width: 45px;
 }
 
-audio:hover{
+audio:hover {
 
     width: 300px;
 }
 
-.formaWrap{
+.formaWrap {
     width: 128px;
-    float:left;
+    float: left;
     padding-right: 10px;
     padding-top: 20px;
 }
 
-.formaWrap>input{
+.formaWrap > input {
     width: 120px;
     text-indent: 2px;
 }
 
-.formaDugme1{
+.formaDugme1 {
 
-    position:absolute;
+    position: absolute;
     bottom: 10px;
     left: 10px;
 }
-.formaDugme2{
 
-    position:absolute;
+.formaDugme2 {
+
+    position: absolute;
     bottom: 10px;
     right: 10px;
 }
-.formaDugme1>input,.formaDugme2>input{
+
+.formaDugme1 > input, .formaDugme2 > input {
     width: 75px;
     height: 25px;
     border: none;
-    background: rgba(0,0,0,0);
+    background: rgba(0, 0, 0, 0);
     background-image: url("../Images/mbuttonform.png");
     background-repeat: no-repeat;
     background-size: 75px 25px;
@@ -311,11 +311,11 @@ audio:hover{
     cursor: pointer;
 }
 
-.formaDugme1>input:hover,.formaDugme2>input:hover{
+.formaDugme1 > input:hover, .formaDugme2 > input:hover {
     width: 75px;
     height: 25px;
     border: none;
-    background: rgba(0,0,0,0);
+    background: rgba(0, 0, 0, 0);
     background-image: url("../Images/mbuttonformhover.png");
     background-repeat: no-repeat;
     background-size: 75px 25px;
@@ -324,11 +324,11 @@ audio:hover{
     font-weight: bold;
 }
 
-.formaDugme1>input:active,.formaDugme2>input:active{
+.formaDugme1 > input:active, .formaDugme2 > input:active {
     width: 75px;
     height: 25px;
     border: none;
-    background: rgba(0,0,0,0);
+    background: rgba(0, 0, 0, 0);
     background-image: url("../Images/mbuttonform.png");
     background-repeat: no-repeat;
     background-size: 75px 25px;
@@ -337,20 +337,25 @@ audio:hover{
     font-weight: bold;
 }
 
-.dugmeWrap{padding-top: 100px;}
+.dugmeWrap {
+    padding-top: 100px;
+}
 
-.formaText1{
+.formaText1 {
     display: block;
     position: absolute;
-    top:180px;
-    left:20px;
+    top: 180px;
+    left: 20px;
 }
-.wrapper{position: relative;}
 
-.formaText2>textarea{
+.wrapper {
+    position: relative;
+}
+
+.formaText2 > textarea {
     position: absolute;
-    top:150px;
-    right:75px;
+    top: 150px;
+    right: 75px;
     margin-top: 20px;
     width: 400px;
     height: 128px;
