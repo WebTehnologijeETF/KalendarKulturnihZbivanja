@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ab0d44c6-6615-49eb-8f35-c6da1fc92c04" name="Default" comment="Onama Okvir Izmjena">
-      <change type="MOVED" beforePath="C:\Users\armin\Documents\GitHub\KalendarKulturnihZbivanja\tray.png" afterPath="$PROJECT_DIR$/Images/tray.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML/Aktuelno.html" afterPath="$PROJECT_DIR$/HTML/Aktuelno.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML/Kontakt.html" afterPath="$PROJECT_DIR$/HTML/Kontakt.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML/Novosti.html" afterPath="$PROJECT_DIR$/HTML/Novosti.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML/ONama.html" afterPath="$PROJECT_DIR$/HTML/ONama.html" />
+    <list default="true" id="ab0d44c6-6615-49eb-8f35-c6da1fc92c04" name="Default" comment="Images izmjena">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CSS/stil.css" afterPath="$PROJECT_DIR$/CSS/stil.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -34,8 +29,8 @@
       <file leaf-file-name="stil.css" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/CSS/stil.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.56058156" vertical-offset="3801" max-vertical-offset="6783">
-              <caret line="244" column="22" selection-start-line="244" selection-start-column="22" selection-end-line="244" selection-end-column="22" />
+            <state vertical-scroll-proportion="0.6704362" vertical-offset="4107" max-vertical-offset="6783">
+              <caret line="266" column="22" selection-start-line="266" selection-start-column="22" selection-end-line="266" selection-end-column="22" />
               <folding />
             </state>
           </provider>
@@ -311,7 +306,11 @@
       <created>1427463322064</created>
       <updated>1427463322064</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Images izmjena">
+      <created>1427463542748</created>
+      <updated>1427463542748</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -358,7 +357,8 @@
     <MESSAGE value="Ispravke za Kontakt da radi na Validatoru" />
     <MESSAGE value="Sponzori i Onama postavljeno" />
     <MESSAGE value="Onama Okvir Izmjena" />
-    <option name="LAST_COMMIT_MESSAGE" value="Onama Okvir Izmjena" />
+    <MESSAGE value="Images izmjena" />
+    <option name="LAST_COMMIT_MESSAGE" value="Images izmjena" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="XDebuggerManager">
@@ -431,8 +431,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/CSS/stil.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.56058156" vertical-offset="3801" max-vertical-offset="6783">
-          <caret line="244" column="22" selection-start-line="244" selection-start-column="22" selection-end-line="244" selection-end-column="22" />
+        <state vertical-scroll-proportion="0.6704362" vertical-offset="4107" max-vertical-offset="6783">
+          <caret line="266" column="22" selection-start-line="266" selection-start-column="22" selection-end-line="266" selection-end-column="22" />
           <folding />
         </state>
       </provider>
