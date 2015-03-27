@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ab0d44c6-6615-49eb-8f35-c6da1fc92c04" name="Default" comment="ONama font family izmjena">
+    <list default="true" id="ab0d44c6-6615-49eb-8f35-c6da1fc92c04" name="Default" comment="ArticleLinks Boja URLa izmjena">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML/Kontakt.html" afterPath="$PROJECT_DIR$/HTML/Kontakt.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CSS/stil.css" afterPath="$PROJECT_DIR$/CSS/stil.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -29,38 +30,8 @@
       <file leaf-file-name="stil.css" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/CSS/stil.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.6978998" vertical-offset="2050" max-vertical-offset="6800">
-              <caret line="146" column="25" selection-start-line="146" selection-start-column="25" selection-end-line="146" selection-end-column="25" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ONama.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/HTML/ONama.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-3.2692308" vertical-offset="408" max-vertical-offset="1105">
-              <caret line="29" column="26" selection-start-line="29" selection-start-column="26" selection-end-line="29" selection-end-column="26" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Novosti.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/HTML/Novosti.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.0" vertical-offset="85" max-vertical-offset="2652">
-              <caret line="5" column="44" selection-start-line="5" selection-start-column="44" selection-end-line="5" selection-end-column="62" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Aktuelno.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/HTML/Aktuelno.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="13.730769" vertical-offset="357" max-vertical-offset="2210">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.56058156" vertical-offset="5790" max-vertical-offset="6732">
+              <caret line="361" column="1" selection-start-line="361" selection-start-column="1" selection-end-line="361" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -69,8 +40,8 @@
       <file leaf-file-name="Kontakt.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/HTML/Kontakt.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-8.807693" vertical-offset="468" max-vertical-offset="1547">
-              <caret line="41" column="55" selection-start-line="41" selection-start-column="55" selection-end-line="41" selection-end-column="55" />
+            <state vertical-scroll-proportion="-7.5" vertical-offset="825" max-vertical-offset="1547">
+              <caret line="60" column="0" selection-start-line="60" selection-start-column="0" selection-end-line="60" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -91,8 +62,8 @@
       <list>
         <option value="$PROJECT_DIR$/Novosti.html" />
         <option value="$PROJECT_DIR$/HTML/Novosti.html" />
-        <option value="$PROJECT_DIR$/HTML/Kontakt.html" />
         <option value="$PROJECT_DIR$/HTML/ONama.html" />
+        <option value="$PROJECT_DIR$/HTML/Kontakt.html" />
         <option value="$PROJECT_DIR$/CSS/stil.css" />
       </list>
     </option>
@@ -314,7 +285,11 @@
       <created>1427464666425</created>
       <updated>1427464666425</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="ArticleLinks Boja URLa izmjena">
+      <created>1427464797641</created>
+      <updated>1427464797641</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -363,7 +338,8 @@
     <MESSAGE value="Onama Okvir Izmjena" />
     <MESSAGE value="Images izmjena" />
     <MESSAGE value="ONama font family izmjena" />
-    <option name="LAST_COMMIT_MESSAGE" value="ONama font family izmjena" />
+    <MESSAGE value="ArticleLinks Boja URLa izmjena" />
+    <option name="LAST_COMMIT_MESSAGE" value="ArticleLinks Boja URLa izmjena" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="XDebuggerManager">
@@ -402,14 +378,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/HTML/Kontakt.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-8.807693" vertical-offset="468" max-vertical-offset="1547">
-          <caret line="41" column="55" selection-start-line="41" selection-start-column="55" selection-end-line="41" selection-end-column="55" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/HTML/Aktuelno.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="13.730769" vertical-offset="357" max-vertical-offset="2210">
@@ -434,10 +402,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/HTML/Kontakt.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-7.5" vertical-offset="825" max-vertical-offset="1547">
+          <caret line="60" column="0" selection-start-line="60" selection-start-column="0" selection-end-line="60" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/CSS/stil.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6978998" vertical-offset="2050" max-vertical-offset="6800">
-          <caret line="146" column="25" selection-start-line="146" selection-start-column="25" selection-end-line="146" selection-end-column="25" />
+        <state vertical-scroll-proportion="0.56058156" vertical-offset="5790" max-vertical-offset="6732">
+          <caret line="361" column="1" selection-start-line="361" selection-start-column="1" selection-end-line="361" selection-end-column="1" />
           <folding />
         </state>
       </provider>

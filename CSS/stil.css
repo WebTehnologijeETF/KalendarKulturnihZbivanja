@@ -361,10 +361,6 @@ audio:hover {
     left: 20px;
 }
 
-.wrapper {
-    position: relative;
-}
-
 .formaText2 > textarea {
     position: absolute;
     top: 150px;
