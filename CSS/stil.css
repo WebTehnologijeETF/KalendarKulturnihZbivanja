@@ -362,6 +362,15 @@ audio:hover {
     resize: none;
 }
 
+.bold {
+
+    font-weight: bold;
+}
+
+.sponzori > li {
+    list-style-image: url("../tray.png");
+}
+
 
 
 
