@@ -2,6 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ab0d44c6-6615-49eb-8f35-c6da1fc92c04" name="Default" comment="Onama Okvir Izmjena">
+      <change type="MOVED" beforePath="C:\Users\armin\Documents\GitHub\KalendarKulturnihZbivanja\tray.png" afterPath="$PROJECT_DIR$/Images/tray.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML/Aktuelno.html" afterPath="$PROJECT_DIR$/HTML/Aktuelno.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML/Kontakt.html" afterPath="$PROJECT_DIR$/HTML/Kontakt.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML/Novosti.html" afterPath="$PROJECT_DIR$/HTML/Novosti.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML/ONama.html" afterPath="$PROJECT_DIR$/HTML/ONama.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CSS/stil.css" afterPath="$PROJECT_DIR$/CSS/stil.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="KalendarKulturnihZbivanja.iws" />
@@ -28,8 +34,8 @@
       <file leaf-file-name="stil.css" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/CSS/stil.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="1.2746365" vertical-offset="3801" max-vertical-offset="6783">
-              <caret line="270" column="1" selection-start-line="270" selection-start-column="1" selection-end-line="270" selection-end-column="1" />
+            <state vertical-scroll-proportion="0.56058156" vertical-offset="3801" max-vertical-offset="6783">
+              <caret line="244" column="22" selection-start-line="244" selection-start-column="22" selection-end-line="244" selection-end-column="22" />
               <folding />
             </state>
           </provider>
@@ -49,7 +55,7 @@
         <entry file="file://$PROJECT_DIR$/HTML/Novosti.html">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="-0.0" vertical-offset="85" max-vertical-offset="2652">
-              <caret line="5" column="44" selection-start-line="5" selection-start-column="44" selection-end-line="5" selection-end-column="55" />
+              <caret line="5" column="44" selection-start-line="5" selection-start-column="44" selection-end-line="5" selection-end-column="62" />
               <folding />
             </state>
           </provider>
@@ -222,9 +228,9 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\armin\Documents\GitHub\KalendarKulturnihZbivanja\Images" />
       <recent name="C:\Users\armin\Documents\GitHub\KalendarKulturnihZbivanja\CSS" />
       <recent name="C:\Users\armin\Documents\GitHub\KalendarKulturnihZbivanja\HTML" />
-      <recent name="C:\Users\armin\Documents\GitHub\KalendarKulturnihZbivanja\Images" />
     </key>
   </component>
   <component name="RunManager">
@@ -301,7 +307,11 @@
       <created>1427463126117</created>
       <updated>1427463126117</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Onama Okvir Izmjena">
+      <created>1427463322064</created>
+      <updated>1427463322064</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -405,8 +415,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/HTML/Novosti.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="85" max-vertical-offset="2652">
-          <caret line="5" column="44" selection-start-line="5" selection-start-column="44" selection-end-line="5" selection-end-column="55" />
+        <state vertical-scroll-proportion="-0.0" vertical-offset="85" max-vertical-offset="2652">
+          <caret line="5" column="44" selection-start-line="5" selection-start-column="44" selection-end-line="5" selection-end-column="62" />
           <folding />
         </state>
       </provider>
@@ -421,8 +431,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/CSS/stil.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.2746365" vertical-offset="3801" max-vertical-offset="6783">
-          <caret line="270" column="1" selection-start-line="270" selection-start-column="1" selection-end-line="270" selection-end-column="1" />
+        <state vertical-scroll-proportion="0.56058156" vertical-offset="3801" max-vertical-offset="6783">
+          <caret line="244" column="22" selection-start-line="244" selection-start-column="22" selection-end-line="244" selection-end-column="22" />
           <folding />
         </state>
       </provider>
