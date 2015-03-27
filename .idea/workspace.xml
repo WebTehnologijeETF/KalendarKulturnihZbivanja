@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ab0d44c6-6615-49eb-8f35-c6da1fc92c04" name="Default" comment="Images izmjena">
+    <list default="true" id="ab0d44c6-6615-49eb-8f35-c6da1fc92c04" name="Default" comment="ONama font family izmjena">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CSS/stil.css" afterPath="$PROJECT_DIR$/CSS/stil.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -29,8 +29,8 @@
       <file leaf-file-name="stil.css" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/CSS/stil.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.6704362" vertical-offset="4107" max-vertical-offset="6783">
-              <caret line="266" column="22" selection-start-line="266" selection-start-column="22" selection-end-line="266" selection-end-column="22" />
+            <state vertical-scroll-proportion="0.6978998" vertical-offset="2050" max-vertical-offset="6800">
+              <caret line="146" column="25" selection-start-line="146" selection-start-column="25" selection-end-line="146" selection-end-column="25" />
               <folding />
             </state>
           </provider>
@@ -39,7 +39,7 @@
       <file leaf-file-name="ONama.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/HTML/ONama.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-17.0" vertical-offset="51" max-vertical-offset="1105">
+            <state vertical-scroll-proportion="-3.2692308" vertical-offset="408" max-vertical-offset="1105">
               <caret line="29" column="26" selection-start-line="29" selection-start-column="26" selection-end-line="29" selection-end-column="26" />
               <folding />
             </state>
@@ -310,7 +310,11 @@
       <created>1427463542748</created>
       <updated>1427463542748</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="ONama font family izmjena">
+      <created>1427464666425</created>
+      <updated>1427464666425</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -358,7 +362,8 @@
     <MESSAGE value="Sponzori i Onama postavljeno" />
     <MESSAGE value="Onama Okvir Izmjena" />
     <MESSAGE value="Images izmjena" />
-    <option name="LAST_COMMIT_MESSAGE" value="Images izmjena" />
+    <MESSAGE value="ONama font family izmjena" />
+    <option name="LAST_COMMIT_MESSAGE" value="ONama font family izmjena" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="XDebuggerManager">
@@ -423,7 +428,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/HTML/ONama.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-17.0" vertical-offset="51" max-vertical-offset="1105">
+        <state vertical-scroll-proportion="-3.2692308" vertical-offset="408" max-vertical-offset="1105">
           <caret line="29" column="26" selection-start-line="29" selection-start-column="26" selection-end-line="29" selection-end-column="26" />
           <folding />
         </state>
@@ -431,8 +436,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/CSS/stil.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6704362" vertical-offset="4107" max-vertical-offset="6783">
-          <caret line="266" column="22" selection-start-line="266" selection-start-column="22" selection-end-line="266" selection-end-column="22" />
+        <state vertical-scroll-proportion="0.6978998" vertical-offset="2050" max-vertical-offset="6800">
+          <caret line="146" column="25" selection-start-line="146" selection-start-column="25" selection-end-line="146" selection-end-column="25" />
           <folding />
         </state>
       </provider>

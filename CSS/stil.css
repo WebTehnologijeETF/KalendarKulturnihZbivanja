@@ -144,6 +144,7 @@ span.img1:hover:after {
 }
 
 .ArticleLinks {
+    text-decoration: none;
     color: yellow;
     font-weight: bold;
 }
