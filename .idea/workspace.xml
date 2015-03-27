@@ -1,12 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ab0d44c6-6615-49eb-8f35-c6da1fc92c04" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML/Aktuelno.html" afterPath="$PROJECT_DIR$/HTML/Aktuelno.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML/Kontakt.html" afterPath="$PROJECT_DIR$/HTML/Kontakt.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML/Novosti.html" afterPath="$PROJECT_DIR$/HTML/Novosti.html" />
+    <list default="true" id="ab0d44c6-6615-49eb-8f35-c6da1fc92c04" name="Default" comment="WebStorm GitHub Test">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML/ONama.html" afterPath="$PROJECT_DIR$/HTML/ONama.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CSS/stil.css" afterPath="$PROJECT_DIR$/CSS/stil.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="KalendarKulturnihZbivanja.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -29,11 +26,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="ONama.html" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="ONama.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/HTML/ONama.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="21.0" vertical-offset="971" max-vertical-offset="1564">
-              <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.51264757" vertical-offset="206" max-vertical-offset="816">
+              <caret line="30" column="0" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -49,11 +46,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="stil.css" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="stil.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/CSS/stil.css">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="6426">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -183,6 +180,7 @@
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
     <property name="LayoutCode.rearrangeEntries" value="true" />
+    <property name="recentsLimit" value="5" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -245,12 +243,18 @@
       <created>1427452143405</created>
       <updated>1427452143405</updated>
     </task>
+    <task id="LOCAL-00001" summary="WebStorm GitHub Test">
+      <created>1427453724452</created>
+      <updated>1427453724452</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1376" height="754" extended-state="6" />
     <editor active="true" />
     <layout>
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -285,6 +289,9 @@
     <option name="myTodoPanelSettings">
       <TodoPanelSettings />
     </option>
+    <MESSAGE value="WebStorm GitHub Test" />
+    <option name="LAST_COMMIT_MESSAGE" value="WebStorm GitHub Test" />
+    <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -306,14 +313,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/HTML/ONama.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="21.0" vertical-offset="971" max-vertical-offset="1564">
-          <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/HTML/Novosti.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2635">
@@ -325,7 +324,15 @@
     <entry file="file://$PROJECT_DIR$/CSS/stil.css">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="6426">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HTML/ONama.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.51264757" vertical-offset="206" max-vertical-offset="816">
+          <caret line="30" column="0" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
           <folding />
         </state>
       </provider>
