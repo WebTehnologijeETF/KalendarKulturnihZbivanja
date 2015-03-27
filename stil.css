@@ -1,0 +1,367 @@
+@import url(http://fonts.googleapis.com/css?family=Gabriela);
+@import url(http://fonts.googleapis.com/css?family=Lobster);
+@import url(http://fonts.googleapis.com/css?family=Fredericka+the+Great);
+
+.bgimg {
+    min-height: 100%;
+    min-width: 100%;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -2;
+}
+
+.menu {
+    position: relative;
+    margin: 0 auto;
+    width: 796px;
+    background-color: #fff059;
+    font-family: Lobster;
+
+
+}
+
+.menu > ul > li > a{
+    display: block;
+    height: 35px;
+    width: 200px;
+    text-decoration: none;
+    color: red;
+}
+
+.menu ul {
+    text-align: center;
+    list-style-type: none;
+    padding: 0;
+}
+
+.menu > ul > li {
+    display: inline-block;
+    width: 200px;
+    list-style-type: none;
+    font-size: 30px;
+    margin-right:-2px ;
+    margin-left: -2px;
+}
+
+.menu > ul > li:hover {
+    background-image: url("mbuttonformhover.png");
+    background-repeat: no-repeat;
+    background-size: 215px 45px;
+    background-position: center;
+}
+
+.menu > ul > li:active {
+    background-image: url("mbuttonform.png");
+    background-repeat: no-repeat;
+    background-size: 215px 45px;
+    background-position: center;
+}
+
+.notClicked {
+   /* background-color: #fff059;
+    background-repeat: no-repeat;
+    background-size: 200px 45px;*/
+    background-image: url("mbutton.png");
+    background-repeat: no-repeat;
+    background-size:215px 80px;
+    background-position: center;
+}
+
+.Clicked {
+    background-image: url("mbuttonform.png");
+    background-repeat: no-repeat;
+    background-size: 215px 45px;
+    background-position: center;
+}
+
+.logoPozicija {
+    background-image: url("logo.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: 200px;
+    height: 100px;
+    position: fixed;
+    bottom: 5px;
+    right: 5px;
+    z-index: -1;
+}
+
+.logoPozicija>p.test {
+
+        font-family: Fredericka the Great;
+        font-size: 72px;
+        color: white;
+        position: relative;
+        bottom: 150px;
+        right: -25px;
+}
+
+.mainOkvir {
+    padding: 20px;
+    width: 640px;
+    top: 50px;
+    position: relative;
+    float: left;
+    background: rgba(0, 0, 0, 0.6);
+    color: white;
+    font-family: Gabriela;
+    font-size: 85%;
+    margin-left: 20px;
+
+}
+
+.centered {
+    text-align: center;
+}
+
+.right {
+    float: right;
+}
+
+span.img1 {
+    position: relative;
+}
+
+span.img1:hover:after {
+    background-image: url("http://urbanbug.net/uploads/useruploads/Mart-2015/Ema-Ema-izlo%C5%BEba-res.jpg");
+    content: "";
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: 500px;
+    height: 314px;
+    position: absolute;
+    top: -157px;
+    left: 50px;
+    display: block;
+}
+
+.MainP {
+    margin: 20px;
+    text-align: justify;
+    min-height: 240px;
+}
+
+.ArticleLinks {
+    color: yellow;
+    font-weight: bold;
+}
+
+.BeoFestIMG {
+
+    background-image: url("http://urbanbug.net/uploads/events/thumb_1423087252-bdf%2015%201%20-%20Copy.jpg");
+    background-size: 100%;
+    width: 200px;
+    height: 144px;
+    float: left;
+    margin-right: 20px;
+}
+
+.textdecoration {
+    font-weight: bold;
+    padding-right: 2px;
+    font-family: Arial;
+
+}
+
+.iframePozicija {
+    position: relative;
+}
+
+iframe {
+    width: 320px;
+    height: 240px;
+    position: absolute;
+    margin: auto;
+    left: 700px;
+    border: 0;
+
+}
+
+td {
+    width: 170px;
+    height: 160px;
+    padding-left: 5px;
+}
+
+caption {
+    font-weight: bolder;
+    font-size: 20px;
+
+}
+
+th{
+    padding-top: 40px;
+    padding-bottom: 10px;
+}
+
+
+table,td,th {
+    border-bottom: 1px solid white;
+}
+
+table{
+    border-collapse: collapse;
+}
+
+.prazanRed>td{
+    height: 0px;
+    border-bottom-color: rgba(255, 255, 255, 0);
+}
+
+
+th{
+    text-align: center;
+}
+
+td{
+    font-family: Arial;
+    text-align: center;
+}
+
+td>a{
+    text-decoration: none;
+    color: yellow;
+    font-weight: bolder;
+    font-size: large;
+    display: block;
+
+}
+.opisTabela{
+    font-size:small;
+    text-align: left;
+}
+
+
+.mainOkvir1 {
+    padding: 20px;
+    width: 1024px;
+    top: 50px;
+    position: relative;
+    float: left;
+    background: rgba(0, 0, 0, 0.6);
+    color: white;
+    font-family: Rockwell;
+    font-size: 85%;
+    margin-left: 20px;
+}
+.mainOkvirForma {
+    padding: 20px;
+    width: 600px;
+    height: 320px;
+    margin:auto;
+    margin-top:100px;
+    background: rgba(0, 0, 0, 0.6);
+    color: white;
+    font-family: Rockwell;
+    font-size: 85%;
+    position:relative;
+}
+
+audio{
+
+    position: fixed;
+    top: 20px;
+    left:0;
+    width:45px;
+}
+
+audio:hover{
+
+    width: 300px;
+}
+
+.formaWrap{
+    width: 128px;
+    float:left;
+    padding-right: 10px;
+    padding-top: 20px;
+}
+
+.formaWrap>input{
+    width: 120px;
+    text-indent: 2px;
+}
+
+.formaDugme1{
+
+    position:absolute;
+    bottom: 10px;
+    left: 10px;
+}
+.formaDugme2{
+
+    position:absolute;
+    bottom: 10px;
+    right: 10px;
+}
+.formaDugme1>input,.formaDugme2>input{
+    width: 75px;
+    height: 25px;
+    border: none;
+    background: rgba(0,0,0,0);
+    background-image: url("mbuttonform.png");
+    background-repeat: no-repeat;
+    background-size: 75px 25px;
+    background-position: center;
+    color: black;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.formaDugme1>input:hover,.formaDugme2>input:hover{
+    width: 75px;
+    height: 25px;
+    border: none;
+    background: rgba(0,0,0,0);
+    background-image: url("mbuttonformhover.png");
+    background-repeat: no-repeat;
+    background-size: 75px 25px;
+    background-position: center;
+    color: black;
+    font-weight: bold;
+}
+
+.formaDugme1>input:active,.formaDugme2>input:active{
+    width: 75px;
+    height: 25px;
+    border: none;
+    background: rgba(0,0,0,0);
+    background-image: url("mbuttonform.png");
+    background-repeat: no-repeat;
+    background-size: 75px 25px;
+    background-position: center;
+    color: black;
+    font-weight: bold;
+}
+
+.dugmeWrap{padding-top: 100px;}
+
+.formaText1{
+    display: block;
+    position: absolute;
+    top:180px;
+    left:20px;
+}
+.wrapper{position: relative;}
+
+.formaText2>textarea{
+    position: absolute;
+    top:150px;
+    right:75px;
+    margin-top: 20px;
+    width: 400px;
+    height: 128px;
+    resize: none;
+}
+
+
+
+
+
+
+
+
+

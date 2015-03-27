@@ -1,0 +1,80 @@
+<!DOCTYPE HTML>
+<HTML>
+<HEAD>
+    <TITLE>Art - About</TITLE>
+    <link rel="stylesheet" type="text/css" href="stil.css" media="all"/>
+    <link rel="icon" type="image/png" href="tray.png"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta charset="utf-8">
+</HEAD>
+<BODY>
+<img class="bgimg" src="BackG1.jpg" alt="">
+
+<div class="okvir">
+
+    <div class="menu">
+        <ul>
+            <li class="notClicked"><a class="MenuItems" href="Novosti.html">Novosti</a></li>
+            <li class="notClicked"><a class="MenuItems" href="Aktuelno.html">Aktuelno</a></li>
+            <li class="notClicked"><a class="MenuItems" href="Kontakt.html">Kontakt</a></li>
+            <li class="Clicked"><a class="MenuItems" href="ONama.html">O Nama</a></li>
+        </ul>
+    </div>
+
+
+</div>
+
+
+
+
+
+
+<div class="logoPozicija"><p class="test">ART</p></div>
+
+<div class="mainOkvirForma">
+
+    <FORM action="WTTut1Z3.php" method="post" autocomplete="on" id="usrform">
+        <div class="formaWrap">Ime:</div> <div class="formaWrap">
+        <input type="text" name="ime" placeholder="Imenko"></div>
+
+
+        <div class="formaWrap">  Spol:</div><div class="formaWrap">
+        <input list="spol"><datalist id="spol">
+        <option value="Muško">
+        <option value="Žensko">
+        <option value="Drugo">
+    </datalist></div>
+
+        <div class="formaWrap">  Prezime:</div><div class="formaWrap">
+        <input type="text" name="prezime" placeholder="Prezimenko"></div>
+
+
+        <div class="formaWrap">  E-Mail:</div><div class="formaWrap">
+
+        <input type="email" name="mail" placeholder="email@example.com" required></div>
+
+        <div class="formaWrap">  Datum Rodjenja:</div><div class="formaWrap">
+        <input type="date" name="bday" max="1999-12-31" required></div>
+
+        <div "wrapper">
+        <div class="formaText1">  Tekst Poruke:</div><div class="formaText2">
+        <textarea name="comment" form="usrform" placeholder="Pisi poruku ovdje"></textarea></div>
+</div>
+
+<div class="dugmeWrap">
+    <div class="formaDugme1">    <input type="submit" value="Potvrdi"></div>
+    <div class="formaDugme2">   <input type="reset" value="Poništi"></div>
+</div>
+
+
+</FORM>
+
+
+</div>
+<audio controls loop>
+    <source src="https://d1490khl9dq1ow.cloudfront.net/music/mp3preview/mozart-eine-kleine-nachtmusik-full_zJ8IiEVd.mp3" type="audio/mpeg">
+    Your browser does not support the audio element.
+</audio>
+
+</BODY>
+</HTML>
