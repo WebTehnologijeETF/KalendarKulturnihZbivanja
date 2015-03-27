@@ -18,7 +18,7 @@
     margin: 0 auto;
     width: 796px;
     background-color: #fff059;
-    font-family: Lobster;
+    font-family: Lobster, Serif;
 
 }
 
@@ -90,7 +90,7 @@
 
 .logoPozicija > p.test {
 
-    font-family: Fredericka the Great;
+    font-family: "Fredericka the Great", Serif;
     font-size: 72px;
     color: white;
     position: relative;
@@ -106,7 +106,7 @@
     float: left;
     background: rgba(0, 0, 0, 0.6);
     color: white;
-    font-family: Gabriela;
+    font-family: Gabriela, Serif;
     font-size: 85%;
     margin-left: 20px;
 
@@ -161,7 +161,7 @@ span.img1:hover:after {
 .textdecoration {
     font-weight: bold;
     padding-right: 2px;
-    font-family: Arial;
+    font-family: Arial, Serif;
 
 }
 
@@ -205,7 +205,7 @@ table {
 }
 
 .prazanRed > td {
-    height: 0px;
+    height: 0;
     border-bottom-color: rgba(255, 255, 255, 0);
 }
 
@@ -214,7 +214,7 @@ th {
 }
 
 td {
-    font-family: Arial;
+    font-family: Arial, Serif;
     text-align: center;
 }
 
@@ -240,7 +240,7 @@ td > a {
     float: left;
     background: rgba(0, 0, 0, 0.6);
     color: white;
-    font-family: Rockwell;
+    font-family: Rockwell, Serif;
     font-size: 85%;
     margin-left: 20px;
 }
@@ -253,7 +253,7 @@ td > a {
     margin-top: 100px;
     background: rgba(0, 0, 0, 0.6);
     color: white;
-    font-family: Rockwell;
+    font-family: Rockwell, Serif;
     font-size: 85%;
     position: relative;
 }
