@@ -16,6 +16,7 @@ var textForOutput = "";
 function validateForm() {
     changeTextOutput();
     if (textForOutput != "") {
+        textForOutput += "Hover over '!' Image for more details !";
         alert(textForOutput);
         return false;
     }
@@ -28,27 +29,27 @@ function changeTextOutput() {
     textForOutput = "";
     validate("ime");
     if (!x) {
-        textForOutput += "Ime je obavezno !" + "\n";
+        textForOutput = "Forma nije korektno popunjena !" + "\n";
     }
     validate("prezime");
     if (!x) {
-        textForOutput += "Prezime je obavezno !" + "\n";
+        textForOutput = "Forma nije korektno popunjena !" + "\n";
     }
     validate("emailA");
     if (!x) {
-        textForOutput += "Format EMaila je : email@example.com !" + "\n";
+        textForOutput = "Forma nije korektno popunjena !" + "\n";
     }
     validate("emailB");
     if (!x) {
-        textForOutput += "EMail mora biti isti u oba polja !" + "\n";
+        textForOutput = "Forma nije korektno popunjena !" + "\n";
     }
     validate("spolLista");
     if (!x) {
-        textForOutput += "Spol (Muško,Žensko ili Drugo)!" + "\n";
+        textForOutput = "Forma nije korektno popunjena !" + "\n";
     }
     validate("bday");
     if (!x) {
-        textForOutput += "Datum Rođenja je obavezan i mora biti ispod godine 2000!" + "\n" + "Format datuma je mm/dd/yyyy";
+        textForOutput = "Forma nije korektno popunjena !" + "\n";
     }
 }
 function validate(id) {
@@ -101,8 +102,6 @@ function validateSpolLista(y, p) {
         p.style.height = "0";
         x = true;
     }
-
-
 }
 
 function validateEMail() {
@@ -131,7 +130,6 @@ function validateEMail() {
         pB.style.width = "0";
         pB.style.height = "0";
     }
-
 }
 
 
