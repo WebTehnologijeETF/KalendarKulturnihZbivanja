@@ -109,6 +109,10 @@ ul#ONamaSub li {
     position: relative;
 }
 
+ul#ONamaSub > li {
+    float: left;
+}
+
 ul#ONamaSub a {
     text-decoration: none;
     font-size: 25px;
@@ -128,7 +132,7 @@ ul#ONamaSub > li ul#ONamaSubB li {
 }
 
 ul#ONamaSub {
-    top: 30px;
+    top: 35px;
     left: 2px;
 }
 
@@ -317,7 +321,7 @@ td > a {
 
 .mainOkvirForma {
     padding: 20px;
-    width: 600px;
+    width: 700px;
     height: 320px;
     margin: auto;
     margin-top: 100px;
@@ -342,10 +346,30 @@ audio:hover {
 }
 
 .formaWrap {
-    width: 128px;
+    width: 150px;
     float: left;
     padding-right: 10px;
     padding-top: 20px;
+    position: relative;
+}
+
+.validation {
+    width: 0;
+    height: 0;
+    position: absolute;
+    right: 10px;
+    bottom: 2px;
+    background-image: url("../Images/validateme.png");
+    background-repeat: no-repeat;
+    background-size: 21px 21px;
+}
+
+.formaWrap .labelA {
+    margin: 20px;
+}
+
+.formaWrap .labelB {
+    margin: 50px;
 }
 
 .formaWrap > input {
@@ -415,15 +439,15 @@ audio:hover {
     display: block;
     position: absolute;
     top: 180px;
-    left: 20px;
+    left: 40px;
 }
 
 .formaText2 > textarea {
     position: absolute;
     top: 150px;
-    right: 75px;
+    right: 115px;
     margin-top: 20px;
-    width: 400px;
+    width: 440px;
     height: 128px;
     resize: none;
 }
