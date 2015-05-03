@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ab0d44c6-6615-49eb-8f35-c6da1fc92c04" name="Default" comment="Validacija putem AJAXa">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HTML/Proizvodi.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML/Aktuelno.html" afterPath="$PROJECT_DIR$/HTML/Aktuelno.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML/Kontakt.html" afterPath="$PROJECT_DIR$/HTML/Kontakt.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/JS/js_1.js" afterPath="$PROJECT_DIR$/JS/js_1.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CSS/stil.css" afterPath="$PROJECT_DIR$/CSS/stil.css" />
@@ -33,8 +33,8 @@
       <file leaf-file-name="stil.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/CSS/stil.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="2723" max-vertical-offset="3451">
-              <caret line="450" column="12" selection-start-line="450" selection-start-column="12" selection-end-line="450" selection-end-column="12" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="2757" max-vertical-offset="3536">
+              <caret line="471" column="21" selection-start-line="471" selection-start-column="21" selection-end-line="471" selection-end-column="21" />
               <folding>
                 <element signature="e#217#244#0" expanded="false" />
                 <element signature="e#253#397#0" expanded="false" />
@@ -98,21 +98,36 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="js_1.js" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="js_1.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/JS/js_1.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="1629" max-vertical-offset="4148">
-              <caret line="154" column="36" selection-start-line="154" selection-start-column="36" selection-end-line="154" selection-end-column="36" />
-              <folding />
+            <state vertical-scroll-proportion="0.6704362" vertical-offset="10" max-vertical-offset="680">
+              <caret line="155" column="19" selection-start-line="155" selection-start-column="19" selection-end-line="155" selection-end-column="19" />
+              <folding>
+                <element signature="n#!!block;n#showSubMenu#0" expanded="false" />
+                <element signature="n#!!block;n#validateForm#0" expanded="false" />
+                <element signature="n#!!block;n#changeTextOutput#0" expanded="false" />
+                <element signature="n#!!block;n#validate#0" expanded="false" />
+                <element signature="n#!!block;n#validateString#0" expanded="false" />
+                <element signature="n#!!block;n#validateSpolLista#0" expanded="false" />
+                <element signature="n#!!block;n#validateEMail#0" expanded="false" />
+                <element signature="n#!!block;n#ucitaj#0" expanded="false" />
+                <element signature="n#!!block;n#validateByAjax#0" expanded="false" />
+                <element signature="n#!!block;n#loadFunction#0" expanded="false" />
+                <element signature="n#!!block;n#addElement#0" expanded="false" />
+                <element signature="n#!!block;n#removeElement#0" expanded="false" />
+                <element signature="n#!!block;n#changeElement#0" expanded="false" />
+                <element signature="n#!!block;n#refreshPage#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Kontakt.html" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/HTML/Kontakt.html">
+      <file leaf-file-name="Proizvodi.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/HTML/Proizvodi.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.33070865" vertical-offset="860" max-vertical-offset="2499">
-              <caret line="58" column="19" selection-start-line="58" selection-start-column="19" selection-end-line="58" selection-end-column="19" />
+            <state vertical-scroll-proportion="-18.23077" vertical-offset="1396" max-vertical-offset="2142">
+              <caret line="110" column="83" selection-start-line="110" selection-start-column="83" selection-end-line="110" selection-end-column="83" />
               <folding />
             </state>
           </provider>
@@ -143,12 +158,13 @@
         <option value="$PROJECT_DIR$/Aktuelno.html" />
         <option value="$PROJECT_DIR$/Aktuelno.txt" />
         <option value="$PROJECT_DIR$/HTML/ONama.html" />
+        <option value="$PROJECT_DIR$/HTML/Novosti.html" />
+        <option value="$PROJECT_DIR$/HTML/Kontakt.html" />
+        <option value="$PROJECT_DIR$/CSS/stil.css" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/HTML/Aktuelno.html" />
-        <option value="$PROJECT_DIR$/HTML/Novosti.html" />
-        <option value="$PROJECT_DIR$/CSS/stil.css" />
+        <option value="$PROJECT_DIR$/HTML/Proizvodi.html" />
         <option value="$PROJECT_DIR$/JS/js_1.js" />
-        <option value="$PROJECT_DIR$/HTML/Kontakt.html" />
       </list>
     </option>
   </component>
@@ -200,6 +216,20 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="KalendarKulturnihZbivanja" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="KalendarKulturnihZbivanja" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="KalendarKulturnihZbivanja" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="HTML" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -363,14 +393,18 @@
       <created>1430645953718</created>
       <updated>1430645953718</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="Validacija putem AJAXa">
+      <created>1430654534552</created>
+      <updated>1430654534552</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1376" height="754" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32868218" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32868218" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -392,8 +426,8 @@
     <layout-to-restore>
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -445,18 +479,10 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="2" />
+      <option name="time" value="3" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/HTML/ONama.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="408" max-vertical-offset="1394">
-          <caret line="24" column="48" selection-start-line="24" selection-start-column="48" selection-end-line="24" selection-end-column="48" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/CSS/stil.css">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="8109">
@@ -1478,14 +1504,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/HTML/Aktuelno.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-7.8461537" vertical-offset="0" max-vertical-offset="306">
-          <caret line="139" column="0" selection-start-line="139" selection-start-column="0" selection-end-line="139" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/HTML/ONama.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="408" max-vertical-offset="1394">
@@ -1502,26 +1520,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-9.807693" vertical-offset="0" max-vertical-offset="527">
-          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/JS/js_1.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="1629" max-vertical-offset="4148">
-          <caret line="154" column="36" selection-start-line="154" selection-start-column="36" selection-end-line="154" selection-end-column="36" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/CSS/stil.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="2723" max-vertical-offset="3451">
-          <caret line="450" column="12" selection-start-line="450" selection-start-column="12" selection-end-line="450" selection-end-column="12" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="2757" max-vertical-offset="3536">
+          <caret line="471" column="21" selection-start-line="471" selection-start-column="21" selection-end-line="471" selection-end-column="21" />
           <folding>
             <element signature="e#217#244#0" expanded="false" />
             <element signature="e#253#397#0" expanded="false" />
@@ -1584,11 +1586,58 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/HTML/Aktuelno.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.9527825" vertical-offset="1294" max-vertical-offset="2397">
+          <caret line="8" column="21" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-7.1923075" vertical-offset="238" max-vertical-offset="3519">
+          <caret line="25" column="59" selection-start-line="25" selection-start-column="59" selection-end-line="25" selection-end-column="59" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/HTML/Kontakt.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.33070865" vertical-offset="860" max-vertical-offset="2499">
-          <caret line="58" column="19" selection-start-line="58" selection-start-column="19" selection-end-line="58" selection-end-column="19" />
+        <state vertical-scroll-proportion="0.38448566" vertical-offset="1115" max-vertical-offset="2499">
+          <caret line="79" column="0" selection-start-line="79" selection-start-column="0" selection-end-line="89" selection-end-column="14" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HTML/Proizvodi.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-18.23077" vertical-offset="1396" max-vertical-offset="2142">
+          <caret line="110" column="83" selection-start-line="110" selection-start-column="83" selection-end-line="110" selection-end-column="83" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JS/js_1.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6704362" vertical-offset="10" max-vertical-offset="680">
+          <caret line="155" column="19" selection-start-line="155" selection-start-column="19" selection-end-line="155" selection-end-column="19" />
+          <folding>
+            <element signature="n#!!block;n#showSubMenu#0" expanded="false" />
+            <element signature="n#!!block;n#validateForm#0" expanded="false" />
+            <element signature="n#!!block;n#changeTextOutput#0" expanded="false" />
+            <element signature="n#!!block;n#validate#0" expanded="false" />
+            <element signature="n#!!block;n#validateString#0" expanded="false" />
+            <element signature="n#!!block;n#validateSpolLista#0" expanded="false" />
+            <element signature="n#!!block;n#validateEMail#0" expanded="false" />
+            <element signature="n#!!block;n#ucitaj#0" expanded="false" />
+            <element signature="n#!!block;n#validateByAjax#0" expanded="false" />
+            <element signature="n#!!block;n#loadFunction#0" expanded="false" />
+            <element signature="n#!!block;n#addElement#0" expanded="false" />
+            <element signature="n#!!block;n#removeElement#0" expanded="false" />
+            <element signature="n#!!block;n#changeElement#0" expanded="false" />
+            <element signature="n#!!block;n#refreshPage#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>

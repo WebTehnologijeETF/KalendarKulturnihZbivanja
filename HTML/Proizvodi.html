@@ -1,0 +1,121 @@
+<!DOCTYPE HTML>
+<HTML>
+<HEAD>
+    <TITLE>Art - Kontakt</TITLE>
+    <meta charset="utf-8">
+</HEAD>
+<BODY>
+
+
+<div id="Podstranica">
+
+    <div class="okvir">
+
+        <div class="menu">
+            <ul>
+                <li class="notClicked"><a class="MenuItems" onclick="ucitaj('Novosti')">Novosti</a></li>
+                <li class="notClicked"><a class="MenuItems" onclick="ucitaj('Aktuelno')">Aktuelno</a></li>
+                <li class="notClicked"><a class="MenuItems" onclick="ucitaj('Kontakt')">Kontakt</a></li>
+                <li class="notClicked" onmouseover="showSubMenu(1,'ONamaSub');" onmouseout="showSubMenu(0,'ONamaSub');">
+                    <a
+                            class="MenuItems" onclick="ucitaj('ONama')">O Nama</a>
+
+                    <ul id="ONamaSub">
+                        <li class="notClicked" onmouseover="showSubMenu(1,'ONamaSubB');"
+                            onmouseout="showSubMenu(0,'ONamaSubB');">
+                            <a href="#">Sponzori</a>
+                            <ul id="ONamaSubB">
+                                <li class="notClicked">
+                                    <a class="MenuItems" href="http://cinemacity.ba/">CinemaCity</a>
+                                </li>
+                                <li class="notClicked">
+                                    <a class="MenuItems"
+                                       href="http://www.urbanbug.net/">UrbanBug</a>
+                                </li>
+                                <li class="notClicked">
+                                    <a class="MenuItems" href="http://www.sff.ba/en">SarajevoFF</a>
+                                </li>
+                                <li class="notClicked">
+                                    <a class="MenuItems" href="http://www.kinomeetingpoint.ba/">MeetingPoint</a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+
+                </li>
+            </ul>
+        </div>
+
+
+    <div class="mainOkvirForma">
+
+
+
+
+        <div class="formaWrap"><label class="labelA" for="odabir">Odaberi :</label></div>
+        <div class="formaWrap">
+            <select id="odabir" onchange="promjenaIzbora()">
+                <option>Dodaj Element</option>
+                <option>Izmjeni Element</option>
+                <option>Obriši Element</option>
+            </select>
+        </div>
+
+        <div class="formaWrap"><label class="labelB" for="naziv">Naziv :</label></div>
+        <div class="formaWrap">
+            <input type="text" name="naziv" id="naziv" placeholder="Imenko" required>
+        </div>
+
+        <div class="formaWrap"><label class="labelA" for="autor">Tip i Autor :</label></div>
+        <div class="formaWrap">
+            <input type="text" name="autor" id="autor" placeholder="Imenko" required>
+        </div>
+
+        <div class="formaWrap"><label class="labelB" for="slika">Slika :</label></div>
+        <div class="formaWrap">
+            <input type="text" name="slika" id="slika" placeholder="Imenko" required>
+        </div>
+
+
+        <div class="formaWrap"><label class="labelA" for="lokacija">Lokacija :</label></div>
+        <div class="formaWrap">
+            <input type="text" name="lokacija" id="lokacija" placeholder="Imenko" required>
+        </div>
+
+
+        <div class="formaWrap"><label class="labelB" for="url">URL:</label></div>
+        <div class="formaWrap">
+            <input type="text" name="url" id="url" placeholder="Imenko" required>
+        </div>
+
+
+            <div class="formaWrap"><label class="labelA" for="datum">Datum :</label></div>
+            <div class="formaWrap">
+                <input type="text" name="datum" id="datum" placeholder="Imenko" required>
+            </div>
+
+
+        <div class="formaWrap"><label class="labelB" for="autor">ID :</label></div>
+        <div class="formaWrap">
+            <input type="text" name="id" id="id" placeholder="Imenko" required>
+        </div>
+
+        <div class="formaText1"> Opis :</div>
+        <div class="formaText2">
+            <textarea name="opis" id="opis" placeholder="Pisi poruku ovdje" required></textarea>
+        </div>
+
+
+
+            <div class="dugmeWrap">
+                <div class="formaDugme1"><input type="button" onclick="loadFunction();" value="Spasi"></div>
+                <div class="formaDugme2"><input type="reset" value="Poništi"></div>
+            </div>
+
+
+
+    </div>
+</div>
+
+
+</BODY>

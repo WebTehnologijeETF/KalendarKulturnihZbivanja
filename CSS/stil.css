@@ -466,7 +466,12 @@ audio:hover {
 }
 
 
-
+#Kontrola{
+    cursor: pointer;
+    color: #20b6ba;
+    font-size: small;
+    text-decoration: underline;
+}
 
 
 

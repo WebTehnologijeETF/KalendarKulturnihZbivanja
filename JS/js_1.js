@@ -137,20 +137,23 @@ function validateEMail() {
     }
 }
 
-
+//Ajax Single Page Application
 function ucitaj(id) {
     var ajax = new XMLHttpRequest();
     ajax.onreadystatechange = function () {
         if (ajax.readyState == 4 && ajax.status == 200) {
+
             document.getElementById("Page").innerHTML = ajax.responseText;
+            refreshPage()
         }
     };
     ajax.open("GET", "HTML/" + id + ".html", true);
     ajax.send();
 }
 
-var xtreme = false;
 
+// Ajax Validacija
+var xtreme = false;
 function validateByAjax() {
     var ajax = new XMLHttpRequest();
     var y = document.getElementById("mjesto");
@@ -196,43 +199,139 @@ function validateByAjax() {
 
 }
 
+//Ajax Tabela
+function loadFunction(){
+var izbor = document.getElementById("odabir").selectedIndex;
+    if(izbor==0){addElement();}
+    else if (izbor==1){changeElement();}
+    else if(izbor==2){removeElement();}
+}
+function addElement() {
+
+    var _naziv = document.getElementById("naziv");
+    var _opis = document.getElementById("opis");
+    var _slika = document.getElementById("slika");
+    var _lokacija = document.getElementById("lokacija");
+    var _autor = document.getElementById("autor");
+    var _datum = document.getElementById("datum");
+    var _url = document.getElementById("url");
+
+    var collection = _lokacija.value+"!|SplitHereEverything|!"+_autor.value+"!|SplitHereEverything|!"+_datum.value;
+    var collection2 = _opis.value+"!|SplitHereEverything|!"+_url.value;
+    var proizvod = {
+        naziv: naziv.value,
+        opis: collection2,
+        slika: slika.value,
+        url:collection
+    }
 
 
+    var ajax = new XMLHttpRequest();
+    ajax.onreadystatechange = function() {
+        if (ajax.status == 200 && ajax.readyState == 4) {
+            alert("Dodavanje uspjesno");
+            return true;
+        }
+        else if ((ajax.status == 400 || ajax.status == 404) && ajax.readyState == 4) {
+            alert("Dodavanje neuspjesno");
+            return false;
+        }
+    }
+    ajax.open("POST", "http://zamger.etf.unsa.ba/wt/proizvodi.php?brindexa=16131", true);
+    ajax.setRequestHeader("Content-type","application/x-www-form-urlencoded");
+    ajax.send ("akcija=dodavanje&proizvod=" + JSON.stringify(proizvod));
+}
+function removeElement(){
+
+        var proizvod = {
+            id: parseInt(document.getElementById("id").value),
+            naziv: "",
+            opis: "",
+            slika: "",
+            url: "",
+            cijena: "",
+            dostupnost: ""
+        }
+
+        var ajax = new XMLHttpRequest();
+
+        ajax.onreadystatechange = function() {
+            if (ajax.status == 200 && ajax.readyState == 4) {
+                alert("Brisanje uspjesno");
+            }
+            else if ((ajax.status == 400 || ajax.status == 404) && ajax.readyState == 4) {
+                alert("Brisanje neuspjesno");
+            }
+        }
+        ajax.open("POST", "http://zamger.etf.unsa.ba/wt/proizvodi.php?brindexa=16131", true);
+        ajax.setRequestHeader("Content-type","application/x-www-form-urlencoded");
+        ajax.send ("akcija=brisanje&proizvod=" + JSON.stringify(proizvod));
+}
+function changeElement() {
+    var _naziv = document.getElementById("naziv");
+    var _opis = document.getElementById("opis");
+    var _slika = document.getElementById("slika");
+    var _lokacija = document.getElementById("lokacija");
+    var _autor = document.getElementById("autor");
+    var _datum = document.getElementById("datum");
+    var _url = document.getElementById("url");
+
+    var collection = _lokacija.value+"!|SplitHereEverything|!"+_autor.value+"!|SplitHereEverything|!"+_datum.value;
+    var collection2 = _opis.value+"!|SplitHereEverything|!"+_url.value;
+
+    var proizvod = {
+        id: parseInt(document.getElementById("id").value),
+        naziv: naziv.value,
+        opis: collection2,
+        slika: slika.value,
+        url:collection
+    }
+
+    var ajax = new XMLHttpRequest();
+
+    ajax.onreadystatechange = function() {
+        if (ajax.status == 200 && ajax.readyState == 4) {
+            alert("Izmjena uspjesna");
+        }
+        else if ((ajax.status == 400 || ajax.status == 404) && ajax.readyState == 4) {
+            alert("Izmjena neuspjesna");
+        }
+    }
+    ajax.open("POST", "http://zamger.etf.unsa.ba/wt/proizvodi.php?brindexa=16131", true);
+    ajax.setRequestHeader("Content-type","application/x-www-form-urlencoded");
+    ajax.send ("akcija=promjena&proizvod=" + JSON.stringify(proizvod));
+}
+function refreshPage() {
+    var table = document.getElementById("TableID");
+    var tableDefault = table.innerHTML;
+
+    var ajax = new XMLHttpRequest();
+
+    ajax.onreadystatechange = function() {
+        if(ajax.readyState == 4 && ajax.status == 200) {
+            var tekst = ajax.responseText;
+            proizvodi = JSON.parse(tekst);
+            for (var i=0; i<proizvodi.length; i++) {
+                var _naziv = proizvodi[i]["naziv"];
+                var _slika = proizvodi[i]["slika"];
+                var KolekcijaA = proizvodi[i]["opis"].split("!|SplitHereEverything|!");
+                var KolekcijaB = proizvodi[i]["url"].split("!|SplitHereEverything|!");
+                var _opis = KolekcijaA[0];
+                var _lokacija = KolekcijaB[0];
+                var _autor = KolekcijaB[1];
+                var _datum = KolekcijaB[2];
+                var _url = KolekcijaA[1];
+                tableDefault +=
+                    "<tr> <td><TD><img src='"+_slika+"alt=''></TD><td>"+_naziv+"</td><td>"+
+                        _autor+"</td><TD colspan='2' class='opisTabela'>"+_opis+"<a href='"+_url+">...</a></TD><TD>"+_lokacija+"</TD><TD>"+_datum+"</TD></TR>";
+            }
+            tableDefault+="<TR class='prazanRed'><TD></TD><TD></TD><TD></TD><TD></TD><TD></TD><TD></TD><TD></TD></TR>";
+            table.innerHTML = tableDefault;
+        }
+    }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    ajax.open("POST", "http://zamger.etf.unsa.ba/wt/proizvodi.php?brindexa=16131", true);
+    ajax.setRequestHeader("Content-type","application/x-www-form-urlencoded");
+    ajax.send ();
+}
