@@ -27,6 +27,7 @@ function validateForm() {
 
 function changeTextOutput() {
     textForOutput = "";
+    x = true;
     validate("ime");
     if (!x) {
         textForOutput = "Forma nije korektno popunjena !" + "\n";
@@ -48,6 +49,10 @@ function changeTextOutput() {
         textForOutput = "Forma nije korektno popunjena !" + "\n";
     }
     validate("bday");
+    if (!x) {
+        textForOutput = "Forma nije korektno popunjena !" + "\n";
+    }
+    validateByAjax();
     if (!x) {
         textForOutput = "Forma nije korektno popunjena !" + "\n";
     }
@@ -135,20 +140,61 @@ function validateEMail() {
 
 function ucitaj(id) {
     var ajax = new XMLHttpRequest();
-
     ajax.onreadystatechange = function () {
         if (ajax.readyState == 4 && ajax.status == 200) {
             document.getElementById("Page").innerHTML = ajax.responseText;
         }
     };
-
     ajax.open("GET", "HTML/" + id + ".html", true);
     ajax.send();
 }
 
+var xtreme = false;
 
+function validateByAjax() {
+    var ajax = new XMLHttpRequest();
+    var y = document.getElementById("mjesto");
+    var z = y.parentNode;
+    var p = z.children[1];
+    var y1 = document.getElementById("zip");
+    var z1 = y1.parentNode;
+    var p1 = z1.children[1];
+    if (!xtreme) {
+        p.style.width = "21px";
+        p.style.height = "21px";
+        p1.style.width = "21px";
+        p1.style.height = "21px";
+        x = false;
+    }
+    ajax.onreadystatechange = function () {
+        if (ajax.readyState == 4 && ajax.status == 200) {
+            var obj = JSON.parse(ajax.responseText);
+            if (Object.keys(obj)[0] == "ok") {
+                p.style.width = "0";
+                p.style.height = "0";
+                p1.style.width = "0";
+                p1.style.height = "0";
+                x = true;
+                xtreme = true;
+            }
+            else if (Object.keys(obj)[0] == "greska") {
+                p.style.width = "21px";
+                p.style.height = "21px";
+                p1.style.width = "21px";
+                p1.style.height = "21px";
+                x = false;
+                p.title = obj.greska;
+                p1.title = obj.greska;
+            }
+        }
+    };
 
+    var grad = document.getElementById("mjesto").value;
+    var postanskiBroj = document.getElementById("zip").value;
+    ajax.open("GET", "http://zamger.etf.unsa.ba/wt/postanskiBroj.php?mjesto=" + grad + "&postanskiBroj=" + postanskiBroj, true);
+    ajax.send();
 
+}
 
 
 

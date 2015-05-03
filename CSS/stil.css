@@ -326,7 +326,7 @@ td > a {
 .mainOkvirForma {
     padding: 20px;
     width: 700px;
-    height: 320px;
+    height: 420px;
     margin: auto;
     margin-top: 100px;
     background: rgba(0, 0, 0, 0.6);
@@ -351,10 +351,10 @@ audio:hover {
 
 .formaWrap {
     width: 150px;
-    float: left;
     padding-right: 10px;
     padding-top: 20px;
     position: relative;
+    float: left;
 }
 
 .validation {
@@ -442,13 +442,13 @@ audio:hover {
 .formaText1 {
     display: block;
     position: absolute;
-    top: 180px;
+    top: 220px;
     left: 40px;
 }
 
 .formaText2 > textarea {
     position: absolute;
-    top: 150px;
+    top: 200px;
     right: 115px;
     margin-top: 20px;
     width: 440px;
