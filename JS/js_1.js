@@ -144,7 +144,7 @@ function ucitaj(id) {
         if (ajax.readyState == 4 && ajax.status == 200) {
 
             document.getElementById("Page").innerHTML = ajax.responseText;
-            refreshPage()
+            refreshPage();
         }
     };
     ajax.open("GET", "HTML/" + id + ".html", true);
@@ -219,11 +219,11 @@ function addElement() {
     var collection = _lokacija.value+"!|SplitHereEverything|!"+_autor.value+"!|SplitHereEverything|!"+_datum.value;
     var collection2 = _opis.value+"!|SplitHereEverything|!"+_url.value;
     var proizvod = {
-        naziv: naziv.value,
+        naziv: _naziv.value,
         opis: collection2,
-        slika: slika.value,
+        slika: _slika.value,
         url:collection
-    }
+    };
 
 
     var ajax = new XMLHttpRequest();
@@ -236,7 +236,7 @@ function addElement() {
             alert("Dodavanje neuspjesno");
             return false;
         }
-    }
+    };
     ajax.open("POST", "http://zamger.etf.unsa.ba/wt/proizvodi.php?brindexa=16131", true);
     ajax.setRequestHeader("Content-type","application/x-www-form-urlencoded");
     ajax.send ("akcija=dodavanje&proizvod=" + JSON.stringify(proizvod));
@@ -251,7 +251,7 @@ function removeElement(){
             url: "",
             cijena: "",
             dostupnost: ""
-        }
+        };
 
         var ajax = new XMLHttpRequest();
 
@@ -262,7 +262,7 @@ function removeElement(){
             else if ((ajax.status == 400 || ajax.status == 404) && ajax.readyState == 4) {
                 alert("Brisanje neuspjesno");
             }
-        }
+        };
         ajax.open("POST", "http://zamger.etf.unsa.ba/wt/proizvodi.php?brindexa=16131", true);
         ajax.setRequestHeader("Content-type","application/x-www-form-urlencoded");
         ajax.send ("akcija=brisanje&proizvod=" + JSON.stringify(proizvod));
@@ -281,11 +281,11 @@ function changeElement() {
 
     var proizvod = {
         id: parseInt(document.getElementById("id").value),
-        naziv: naziv.value,
+        naziv: _naziv.value,
         opis: collection2,
-        slika: slika.value,
+        slika: _slika.value,
         url:collection
-    }
+    };
 
     var ajax = new XMLHttpRequest();
 
@@ -296,7 +296,7 @@ function changeElement() {
         else if ((ajax.status == 400 || ajax.status == 404) && ajax.readyState == 4) {
             alert("Izmjena neuspjesna");
         }
-    }
+    };
     ajax.open("POST", "http://zamger.etf.unsa.ba/wt/proizvodi.php?brindexa=16131", true);
     ajax.setRequestHeader("Content-type","application/x-www-form-urlencoded");
     ajax.send ("akcija=promjena&proizvod=" + JSON.stringify(proizvod));
@@ -328,7 +328,7 @@ function refreshPage() {
             tableDefault+="<TR class='prazanRed'><TD></TD><TD></TD><TD></TD><TD></TD><TD></TD><TD></TD><TD></TD></TR>";
             table.innerHTML = tableDefault;
         }
-    }
+    };
 
 
     ajax.open("POST", "http://zamger.etf.unsa.ba/wt/proizvodi.php?brindexa=16131", true);
