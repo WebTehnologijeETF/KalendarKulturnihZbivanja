@@ -2,26 +2,22 @@
 <HTML>
 <HEAD>
     <TITLE>Art - Aktuelno</TITLE>
-    <link rel="stylesheet" type="text/css" href="../CSS/stil.css" media="all"/>
-    <link rel="icon" type="image/png" href="../Images/tray.png"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <meta charset="utf-8">
-    <SCRIPT src="../JS/js_1.js"></SCRIPT>
 </HEAD>
 <BODY>
-<img class="bgimg" src="../Images/BackG1.jpg" alt="">
 
-<div class="okvir">
+<div id="Podstranica">
+    <div class="okvir">
 
-    <div class="menu">
-        <ul>
-            <li class="notClicked"><a class="MenuItems" href="Novosti.html">Novosti</a></li>
-            <li class="Clicked"><a class="MenuItems" href="Aktuelno.html">Aktuelno</a></li>
-            <li class="notClicked"><a class="MenuItems" href="Kontakt.html">Kontakt</a></li>
-            <li class="notClicked" onmouseover="showSubMenu(1,'ONamaSub');" onmouseout="showSubMenu(0,'ONamaSub');"><a
-                    class="MenuItems" href="ONama.html">O Nama</a>
+        <div class="menu">
+            <ul>
+                <li class="notClicked"><a class="MenuItems" onclick="ucitaj('Novosti')">Novosti</a></li>
+                <li class="Clicked"><a class="MenuItems" onclick="ucitaj('Aktuelno')">Aktuelno</a></li>
+                <li class="notClicked"><a class="MenuItems" onclick="ucitaj('Kontakt')">Kontakt</a></li>
+                <li class="notClicked" onmouseover="showSubMenu(1,'ONamaSub');" onmouseout="showSubMenu(0,'ONamaSub');"><a
+                        class="MenuItems" onclick="ucitaj('ONama')">O Nama</a>
 
-                <ul id="ONamaSub">
+                    <ul id="ONamaSub">
                     <li class="notClicked" onmouseover="showSubMenu(1,'ONamaSubB');"
                         onmouseout="showSubMenu(0,'ONamaSubB');">
                         <a href="#">Sponzori</a>
@@ -49,9 +45,6 @@
 
 
 </div>
-
-<div class="logoPozicija"><p class="test">ART</p></div>
-
 <div class="mainOkvir1">
     <table>
         <CAPTION>Kalendar Dešavanja</CAPTION>
@@ -140,11 +133,6 @@
 
 
 </div>
-<audio controls loop>
-    <source src="https://d1490khl9dq1ow.cloudfront.net/music/mp3preview/mozart-eine-kleine-nachtmusik-full_zJ8IiEVd.mp3"
-            type="audio/mpeg">
-    Your browser does not support the audio element.
-</audio>
+</div>
 
 </BODY>
-</HTML>

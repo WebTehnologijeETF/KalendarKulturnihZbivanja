@@ -1,8 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ab0d44c6-6615-49eb-8f35-c6da1fc92c04" name="Default" comment="Validacija Verzija2">
+    <list default="true" id="ab0d44c6-6615-49eb-8f35-c6da1fc92c04" name="Default" comment="Single Page Application">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML/Aktuelno.html" afterPath="$PROJECT_DIR$/HTML/Aktuelno.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML/Kontakt.html" afterPath="$PROJECT_DIR$/HTML/Kontakt.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML/Novosti.html" afterPath="$PROJECT_DIR$/HTML/Novosti.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML/ONama.html" afterPath="$PROJECT_DIR$/HTML/ONama.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/JS/js_1.js" afterPath="$PROJECT_DIR$/JS/js_1.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CSS/stil.css" afterPath="$PROJECT_DIR$/CSS/stil.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="KalendarKulturnihZbivanja.iws" />
@@ -26,31 +31,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="stil.css" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="stil.css" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/CSS/stil.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="6103" max-vertical-offset="8109">
-              <caret line="359" column="12" selection-start-line="359" selection-start-column="12" selection-end-line="359" selection-end-column="12" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Kontakt.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/HTML/Kontakt.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-1.5769231" vertical-offset="1285" max-vertical-offset="2261">
-              <caret line="78" column="0" selection-start-line="78" selection-start-column="0" selection-end-line="78" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ONama.html" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/HTML/ONama.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.62731874" vertical-offset="937" max-vertical-offset="1632">
-              <caret line="77" column="52" selection-start-line="77" selection-start-column="52" selection-end-line="77" selection-end-column="52" />
+            <state vertical-scroll-proportion="0.24555735" vertical-offset="358" max-vertical-offset="8177">
+              <caret line="30" column="20" selection-start-line="30" selection-start-column="20" selection-end-line="30" selection-end-column="20" />
               <folding />
             </state>
           </provider>
@@ -59,9 +44,69 @@
       <file leaf-file-name="js_1.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/JS/js_1.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="171" max-vertical-offset="3179">
-              <caret line="18" column="67" selection-start-line="18" selection-start-column="67" selection-end-line="18" selection-end-column="67" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="2279" max-vertical-offset="3366">
+              <caret line="142" column="6" selection-start-line="142" selection-start-column="6" selection-end-line="142" selection-end-column="6" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-8.5" vertical-offset="0" max-vertical-offset="3094">
+              <caret line="13" column="26" selection-start-line="13" selection-start-column="26" selection-end-line="13" selection-end-column="26" />
+              <folding>
+                <element signature="tag#audio#0;tag#BODY#0;tag#HTML#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Aktuelno.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/HTML/Aktuelno.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-11.115385" vertical-offset="0" max-vertical-offset="952">
+              <caret line="17" column="60" selection-start-line="17" selection-start-column="60" selection-end-line="17" selection-end-column="60" />
+              <folding>
+                <element signature="tag#div#1;tag#div#0;tag#BODY#0;tag#HTML#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Kontakt.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/HTML/Kontakt.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-12.423077" vertical-offset="0" max-vertical-offset="1020">
+              <caret line="19" column="60" selection-start-line="19" selection-start-column="60" selection-end-line="19" selection-end-column="60" />
+              <folding>
+                <element signature="tag#div#1;tag#div#0;tag#BODY#0;tag#HTML#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Novosti.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/HTML/Novosti.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-4.8846154" vertical-offset="145" max-vertical-offset="986">
+              <caret line="16" column="93" selection-start-line="16" selection-start-column="93" selection-end-line="16" selection-end-column="93" />
+              <folding>
+                <element signature="tag#div#1;tag#div#0;tag#BODY#0;tag#HTML#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ONama.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/HTML/ONama.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-15.576923" vertical-offset="3" max-vertical-offset="1003">
+              <caret line="24" column="48" selection-start-line="24" selection-start-column="48" selection-end-line="24" selection-end-column="48" />
+              <folding>
+                <element signature="tag#div#1;tag#div#0;tag#BODY#0;tag#HTML#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -84,12 +129,19 @@
         <option value="$PROJECT_DIR$/HTML/Login.html" />
         <option value="$PROJECT_DIR$/HTML/Registracija.html" />
         <option value="$PROJECT_DIR$/HTML/Subscribe.html" />
+        <option value="$PROJECT_DIR$/HTML/index.html" />
+        <option value="$PROJECT_DIR$/HTML/ActivityBody.html" />
+        <option value="$PROJECT_DIR$/HTML/AktuelnoBody.html" />
+        <option value="$PROJECT_DIR$/HTML/Aktuelno.txt" />
+        <option value="$PROJECT_DIR$/Aktuelno.html" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/Aktuelno.txt" />
         <option value="$PROJECT_DIR$/HTML/Aktuelno.html" />
-        <option value="$PROJECT_DIR$/HTML/Novosti.html" />
         <option value="$PROJECT_DIR$/HTML/Kontakt.html" />
-        <option value="$PROJECT_DIR$/CSS/stil.css" />
-        <option value="$PROJECT_DIR$/JS/js_1.js" />
         <option value="$PROJECT_DIR$/HTML/ONama.html" />
+        <option value="$PROJECT_DIR$/HTML/Novosti.html" />
+        <option value="$PROJECT_DIR$/JS/js_1.js" />
+        <option value="$PROJECT_DIR$/CSS/stil.css" />
       </list>
     </option>
   </component>
@@ -125,6 +177,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -167,27 +220,12 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="HTML" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="KalendarKulturnihZbivanja" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="KalendarKulturnihZbivanja" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="CSS" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -221,16 +259,26 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\armin\Documents\GitHub\KalendarKulturnihZbivanja" />
       <recent name="C:\Users\armin\Documents\GitHub\KalendarKulturnihZbivanja\HTML" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\armin\Documents\GitHub\KalendarKulturnihZbivanja\JS" />
       <recent name="C:\Users\armin\Documents\GitHub\KalendarKulturnihZbivanja\HTML" />
+      <recent name="C:\Users\Wolverine\Desktop\KalendarKulturnihZbivanja" />
+      <recent name="C:\Users\armin\Documents\GitHub\KalendarKulturnihZbivanja\JS" />
       <recent name="C:\Users\armin\Documents\GitHub\KalendarKulturnihZbivanja\Images" />
       <recent name="C:\Users\armin\Documents\GitHub\KalendarKulturnihZbivanja\CSS" />
     </key>
   </component>
   <component name="RunManager">
+    <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
+      <option name="VMOptions" />
+      <option name="arguments" />
+      <option name="filePath" />
+      <option name="scope" value="ALL" />
+      <option name="testName" />
+      <method />
+    </configuration>
     <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
       <option name="VMOptions" />
       <option name="arguments" />
@@ -241,12 +289,14 @@
       <option name="showConsoleOnStdOut" value="false" />
       <method />
     </configuration>
-    <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
-      <option name="VMOptions" />
-      <option name="arguments" />
+    <configuration default="true" type="CucumberJavaScriptRunConfigurationType" factoryName="Cucumber.js">
+      <option name="cucumberJsArguments" />
+      <option name="executablePath" />
       <option name="filePath" />
-      <option name="scope" value="ALL" />
-      <option name="testName" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma" config-file="">
+      <envs />
       <method />
     </configuration>
     <configuration default="true" type="JSTestDriver:ConfigurationType" factoryName="JsTestDriver">
@@ -254,16 +304,6 @@
       <setting name="settingsFile" value="" />
       <setting name="serverType" value="INTERNAL" />
       <setting name="preferredDebugBrowser" value="Chrome" />
-      <method />
-    </configuration>
-    <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma" config-file="">
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="true" type="CucumberJavaScriptRunConfigurationType" factoryName="Cucumber.js">
-      <option name="cucumberJsArguments" />
-      <option name="executablePath" />
-      <option name="filePath" />
       <method />
     </configuration>
     <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
@@ -336,18 +376,23 @@
       <created>1429103123281</created>
       <updated>1429103123281</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Novi Sponzor">
+      <created>1429104300119</created>
+      <updated>1429104300119</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1376" height="754" extended-state="6" />
     <editor active="true" />
     <layout>
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32868218" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24338235" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24191177" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32868218" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
@@ -357,7 +402,6 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32868218" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -390,11 +434,15 @@
     <MESSAGE value="Onama SubMenu" />
     <MESSAGE value="Validacija Verzija1" />
     <MESSAGE value="Validacija Verzija2" />
-    <option name="LAST_COMMIT_MESSAGE" value="Validacija Verzija2" />
+    <MESSAGE value="Novi Sponzor" />
+    <MESSAGE value="Single Page Application" />
+    <option name="LAST_COMMIT_MESSAGE" value="Single Page Application" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <option name="time" value="1" />
+    </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/CSS/stil.css">
@@ -715,13 +763,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/HTML/Aktuelno.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-2.6923077" vertical-offset="270" max-vertical-offset="2618">
-          <caret line="20" column="26" selection-start-line="20" selection-start-column="26" selection-end-line="20" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/lib/JavaScriptLanguage.jar!/com/intellij/lang/javascript/index/predefined/EcmaScript5.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.33279485" vertical-offset="984" max-vertical-offset="3247">
@@ -729,41 +770,68 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/HTML/Aktuelno.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-11.115385" vertical-offset="0" max-vertical-offset="952">
+          <caret line="17" column="60" selection-start-line="17" selection-start-column="60" selection-end-line="17" selection-end-column="60" />
+          <folding>
+            <element signature="tag#div#1;tag#div#0;tag#BODY#0;tag#HTML#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HTML/Kontakt.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-12.423077" vertical-offset="0" max-vertical-offset="1037">
+          <caret line="19" column="60" selection-start-line="19" selection-start-column="60" selection-end-line="19" selection-end-column="60" />
+          <folding>
+            <element signature="tag#div#1;tag#div#0;tag#BODY#0;tag#HTML#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HTML/ONama.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-15.576923" vertical-offset="3" max-vertical-offset="1003">
+          <caret line="24" column="48" selection-start-line="24" selection-start-column="48" selection-end-line="24" selection-end-column="48" />
+          <folding>
+            <element signature="tag#div#1;tag#div#0;tag#BODY#0;tag#HTML#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-8.5" vertical-offset="0" max-vertical-offset="3094">
+          <caret line="13" column="26" selection-start-line="13" selection-start-column="26" selection-end-line="13" selection-end-column="26" />
+          <folding>
+            <element signature="tag#audio#0;tag#BODY#0;tag#HTML#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/HTML/Novosti.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-100.69231" vertical-offset="0" max-vertical-offset="3077">
-          <caret line="154" column="11" selection-start-line="154" selection-start-column="11" selection-end-line="155" selection-end-column="120" />
+        <state vertical-scroll-proportion="-4.8846154" vertical-offset="145" max-vertical-offset="986">
+          <caret line="16" column="93" selection-start-line="16" selection-start-column="93" selection-end-line="16" selection-end-column="93" />
+          <folding>
+            <element signature="tag#div#1;tag#div#0;tag#BODY#0;tag#HTML#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/JS/js_1.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="171" max-vertical-offset="3179">
-          <caret line="18" column="67" selection-start-line="18" selection-start-column="67" selection-end-line="18" selection-end-column="67" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="2279" max-vertical-offset="3366">
+          <caret line="142" column="6" selection-start-line="142" selection-start-column="6" selection-end-line="142" selection-end-column="6" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/CSS/stil.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="1719" max-vertical-offset="2771">
-          <caret line="359" column="12" selection-start-line="359" selection-start-column="12" selection-end-line="359" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/HTML/Kontakt.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.5769231" vertical-offset="1285" max-vertical-offset="2261">
-          <caret line="78" column="0" selection-start-line="78" selection-start-column="0" selection-end-line="78" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/HTML/ONama.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.62731874" vertical-offset="937" max-vertical-offset="1632">
-          <caret line="77" column="52" selection-start-line="77" selection-start-column="52" selection-end-line="77" selection-end-column="52" />
+        <state vertical-scroll-proportion="0.24555735" vertical-offset="358" max-vertical-offset="8177">
+          <caret line="30" column="20" selection-start-line="30" selection-start-column="20" selection-end-line="30" selection-end-column="20" />
           <folding />
         </state>
       </provider>

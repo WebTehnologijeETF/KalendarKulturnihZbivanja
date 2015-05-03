@@ -27,6 +27,10 @@ body {
     font-family: Lobster, Serif;
 }
 
+.menu:hover {
+    cursor: pointer;
+}
+
 .menu li > a {
     display: block;
     height: 35px;
