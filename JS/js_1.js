@@ -143,6 +143,14 @@ function ucitaj(id) {
     ajax.onreadystatechange = function () {
         if (ajax.readyState == 4 && ajax.status == 200) {
 
+            var Elements = document.getElementsByClassName("MenuItems");
+            for(var i=0;i<Elements.length;i++){
+                Elements[i].parentNode.className = "notClicked";
+            }
+
+            document.getElementById(id).className="Clicked";
+
+
             document.getElementById("Page").innerHTML = ajax.responseText;
             refreshPage();
         }
