@@ -138,18 +138,18 @@ function validateEMail() {
 }
 
 //Ajax Single Page Application
-function ucitaj(id) {
+function ucitaj(id,test) {
     var ajax = new XMLHttpRequest();
     ajax.onreadystatechange = function () {
         if (ajax.readyState == 4 && ajax.status == 200) {
 
             var Elements = document.getElementsByClassName("MenuItems");
-            for(var i=0;i<Elements.length;i++){
+            for (var i = 0; i < Elements.length; i++) {
                 Elements[i].parentNode.className = "notClicked";
             }
-
-            document.getElementById(id).className="Clicked";
-
+            if (test == 1) {
+            document.getElementById(id).className = "Clicked";
+            }
 
             document.getElementById("Page").innerHTML = ajax.responseText;
             refreshPage();
