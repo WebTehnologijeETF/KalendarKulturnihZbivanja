@@ -322,8 +322,13 @@ function refreshPage() {
                 var _datum = KolekcijaB[2];
                 var _url = KolekcijaA[1];
                 tableDefault +=
-                    "<tr> <td><TD><img src='"+_slika+"alt=''></TD><td>"+_naziv+"</td><td>"+
-                        _autor+"</td><TD colspan='2' class='opisTabela'>"+_opis+"<a href='"+_url+">...</a></TD><TD>"+_lokacija+"</TD><TD>"+_datum+"</TD></TR>";
+                    "<tr> <TD><img src='" + _slika + "' alt=''></TD>" +
+                    "<td>" + _naziv + "</td>" +
+                    "<td>" + _autor + "</td>" +
+                    "<TD colspan='2' class='opisTabela'>" + _opis + "<a href='" + _url + "'>...</a></TD>" +
+                    "<TD>" + _lokacija + "</TD>" +
+                    "<TD>" + _datum + "</TD>" +
+                    "</TR>";
             }
             tableDefault+="<TR class='prazanRed'><TD></TD><TD></TD><TD></TD><TD></TD><TD></TD><TD></TD><TD></TD></TR>";
             table.innerHTML = tableDefault;
