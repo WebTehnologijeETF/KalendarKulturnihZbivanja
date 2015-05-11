@@ -1,11 +1,15 @@
 <!DOCTYPE HTML>
 <HTML>
 <HEAD>
-    <TITLE>Art - Kontakt</TITLE>
+    <TITLE>Art - Main</TITLE>
+    <link rel="stylesheet" type="text/css" href="../CSS/stil.css" media="all"/>
+    <link rel="icon" type="image/png" href="../Images/tray.png"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <meta charset="utf-8">
+    <SCRIPT src="../JS/js_1.js"></SCRIPT>
 </HEAD>
 <BODY>
-
+<noscript><?php include("../PHP/AlternateMenu.php"); ?></noscript>
 
 <div id="Podstranica">
 

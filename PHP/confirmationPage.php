@@ -1,38 +1,32 @@
-<!DOCTYPE HTML>
-<HTML>
-<HEAD>
-    <TITLE>Art - Main</TITLE>
-    <link rel="stylesheet" type="text/css" href="../CSS/stil.css" media="all"/>
-    <link rel="icon" type="image/png" href="../Images/tray.png"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <meta charset="utf-8">
-    <SCRIPT src="../JS/js_1.js"></SCRIPT>
-</HEAD>
-<BODY>
-<?php
-$hide_menu = true;
-$noscript_menu = true;
-?>
-<noscript>
-    <?php include("../PHP/AlternateMenu.php"); ?>
-    <?php
-    $hide_menu = true;
-    $noscript_menu = true;
-    ?>
-</noscript>
-    <?php include("../PHP/Validacija.php"); ?>
-<!--Ovdje je potrebna manipulacija Menu-ima  u cilju jednog menu-a za NoScript, jednog menu-a za Script Ajax i jednog menu-a za Script no Ajax-->
-<?php if($noscript_menu==false) : ?>
-    <?php include("../PHP/AlternateMenu.php"); ?>
-<?php endif; ?>
-<!--End Comment-->
+<div>
+<div class="mainOkvirFormaB">
+    <h2>Provjerite da li ste ispravno popunili kontakt formu</h2>
+<?$ime="";?>
+    <p>Ime : <?=$ime?></p>
+    <p>Prezime : <?=$prezime?></p>
+    <p>Mail : <?=$emailA?></p>
+    <p>Spol : <?=$spol?></p>
+    <p>Mjesto : <?=$mjesto?></p>
+    <p>Zip : <?=$zip?></p>
+    <p>Datum Rodjenja : <?=$bday?></p>
+    <p>Poruka : <?=$comment?></p>
 
-        <?php if($ready_to_send==true) : ?>
-        <?php include("../PHP/confirmationPage.php"); ?>
-        <?php else : ?>
 
-<div id="Podstranica">
-    <div class="mainOkvirForma">
+<form method="get" action="#">
+
+    <div class="dugmeWrap">
+        <div class="formaDugme1"><h3>Da li ste sigurni da želite poslati ove podatke?</h3><br></div>
+        <div class="formaDugme1"><input type="submit" value="Siguran sam"></div>
+    </div>
+</form>
+
+</div>
+
+    <div class="mainOkvirFormaD"> <h2>Ako ste pogrešno popunili formu, možete ispod prepraviti unesene podatke</h2></div>
+
+<div class="mainOkvirFormaC">
+
+
     <FORM action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>" onsubmit="return validateForm()" name="mojaForma" method="post" autocomplete="on" id="usrform">
 
 
@@ -120,8 +114,4 @@ $noscript_menu = true;
     </FORM>
 
 
-    </div>
-</div>
-        <?php endif; ?>
-
-</BODY>
+</div></div>

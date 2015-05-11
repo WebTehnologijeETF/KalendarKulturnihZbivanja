@@ -177,6 +177,30 @@ ul#ONamaSub {
     margin-left: 20px;
 }
 
+.mainOkvirFormaB {
+    padding: 20px;
+    width: 700px;
+    margin: auto;
+    margin-top: 100px;
+    background: rgba(0, 0, 0, 0.6);
+    color: white;
+    font-family: Rockwell, Serif;
+    font-size: 85%;
+    position: relative;
+}
+
+.mainOkvirFormaD {
+    padding: 20px;
+    width: 700px;
+    margin: auto;
+    background: rgba(0, 0, 0, 0.6);
+    color: white;
+    font-family: Rockwell, Serif;
+    font-size: 85%;
+    position: relative;
+}
+
+
 .mainOkvirOnama {
     padding: 20px;
     width: 640px;
@@ -336,6 +360,18 @@ td > a {
     position: relative;
 }
 
+.mainOkvirFormaC {
+    padding: 20px;
+    width: 700px;
+    height: 420px;
+    margin: auto;
+    background: rgba(0, 0, 0, 0.6);
+    color: white;
+    font-family: Rockwell, Serif;
+    font-size: 85%;
+    position: relative;
+}
+
 audio {
 
     position: fixed;
@@ -396,13 +432,13 @@ audio:hover {
 }
 
 .formaDugme1 > input, .formaDugme2 > input {
-    width: 75px;
+    width: 100px;
     height: 25px;
     border: none;
     background: rgba(0, 0, 0, 0);
     background-image: url("../Images/mbuttonform.png");
     background-repeat: no-repeat;
-    background-size: 75px 25px;
+    background-size: 100px 25px;
     background-position: center;
     color: black;
     font-weight: bold;
@@ -410,26 +446,26 @@ audio:hover {
 }
 
 .formaDugme1 > input:hover, .formaDugme2 > input:hover {
-    width: 75px;
+    width: 100px;
     height: 25px;
     border: none;
     background: rgba(0, 0, 0, 0);
     background-image: url("../Images/mbuttonformhover.png");
     background-repeat: no-repeat;
-    background-size: 75px 25px;
+    background-size: 100px 25px;
     background-position: center;
     color: black;
     font-weight: bold;
 }
 
 .formaDugme1 > input:active, .formaDugme2 > input:active {
-    width: 75px;
+    width: 100px;
     height: 25px;
     border: none;
     background: rgba(0, 0, 0, 0);
     background-image: url("../Images/mbuttonform.png");
     background-repeat: no-repeat;
-    background-size: 75px 25px;
+    background-size: 100px 25px;
     background-position: center;
     color: black;
     font-weight: bold;
