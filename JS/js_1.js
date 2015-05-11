@@ -155,7 +155,7 @@ function ucitaj(id,test) {
             refreshPage();
         }
     };
-    ajax.open("GET", "HTML/" + id + ".html", true);
+    ajax.open("GET", "HTML/" + id + ".php", true);
     ajax.send();
 }
 
