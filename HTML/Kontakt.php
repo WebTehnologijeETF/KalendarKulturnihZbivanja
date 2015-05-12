@@ -10,8 +10,8 @@
 </HEAD>
 <BODY>
 <?php
-$hide_menu = true;
-$noscript_menu = true;
+$hide_menu = false;
+$noscript_menu = false;
 ?>
 <noscript>
     <?php include("../PHP/AlternateMenu.php"); ?>

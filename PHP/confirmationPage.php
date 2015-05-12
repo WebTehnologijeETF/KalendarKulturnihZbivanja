@@ -10,10 +10,11 @@
     <p>Zip : <?=$zip?></p>
     <p>Datum Rodjenja : <?=$bday?></p>
     <p>Poruka : <?=$comment?></p>
+    <?php
+    $data = array($ime, $prezime, $zip, $mjesto,$spol,$bday, $comment , $emailA,);
+    ?>
 
-
-<form method="get" action="#">
-
+<form action="../PHP/sendMail.php?<?=http_build_query($data);?>" method="post">
     <div class="dugmeWrap">
         <div class="formaDugme1"><h3>Da li ste sigurni da želite poslati ove podatke?</h3><br></div>
         <div class="formaDugme1"><input type="submit" value="Siguran sam"></div>
