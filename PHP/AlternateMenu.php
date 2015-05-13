@@ -4,11 +4,11 @@
 
     <div class="menu">
         <ul>
-            <li id="Novosti" class="notClicked"><a class="MenuItems" href="Novosti.php">Novosti</a></li>
-            <li id="Aktuelno" class="notClicked"><a class="MenuItems" href="Aktuelno.php">Aktuelno</a></li>
-            <li id="Kontakt" class="notClicked"><a class="MenuItems" href="Kontakt.php">Kontakt</a></li>
+            <li id="Novosti" class="notClicked"><a class="MenuItems" href="../HTML/Novosti.php">Novosti</a></li>
+            <li id="Aktuelno" class="notClicked"><a class="MenuItems" href="../HTML/Aktuelno.php">Aktuelno</a></li>
+            <li id="Kontakt" class="notClicked"><a class="MenuItems" href="../HTML/Kontakt.php">Kontakt</a></li>
             <li id="ONama" class="notClicked" onmouseover="showSubMenu(1,'ONamaSub');" onmouseout="showSubMenu(0,'ONamaSub');">
-                <a class="MenuItems" href="ONama.php">O Nama</a>
+                <a class="MenuItems" href="../HTML/ONama.php">O Nama</a>
 
                 <ul id="ONamaSub">
                     <li class="notClicked" onmouseover="showSubMenu(1,'ONamaSubB');"

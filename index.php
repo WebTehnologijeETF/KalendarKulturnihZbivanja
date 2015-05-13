@@ -9,7 +9,7 @@
     <SCRIPT src="JS/js_1.js"></SCRIPT>
 </HEAD>
 <BODY onload="ucitaj('Novosti',1);">
-<?php include("PHP/Menu.php");?>
+<?php include($_SERVER['DOCUMENT_ROOT']."/PHP/Menu.php");?>
 <noscript><meta http-equiv="refresh" content="0;url=HTML/Novosti.php"></noscript>
 <div id="Page" onchange="refreshPage();">
 </div>

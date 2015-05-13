@@ -1,20 +1,11 @@
 <?php
 // define variables and set to empty values
 $imeErr = $prezimeErr = $emailAErr = $emailBErr = $emailErr = $spolErr = $bdayErr = "";
-$ime = $prezime = $emailA = $emailB = $spol = $comment = $bday = "";
+$prezime = $emailA = $emailB = $spol = $comment = $bday = $ime = "";
 $ready_to_send = false;
 $zip = $mjesto = "";
 
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
-    if (empty($_POST["ime"])) {
-        $imeErr = 'style="width:21px;height: 21px;" title = "Name is required"';
-    } else {
-        $ime = $_POST["ime"];
-        $imeErr = "";
-        if (!preg_match("/^[a-zA-Z ]*$/",$ime)) {
-            $imeErr = 'style="width:21px;height: 21px;" title = "Only letters and whitespace is allowed"';
-        }
-    }
     if (empty($_POST["prezime"])) {
         $prezimeErr = 'style="width:21px;height: 21px;" title = "Last name is required"';
     } else {
@@ -24,6 +15,19 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             $prezimeErr = 'style="width:21px;height: 21px;" title = "Only letters and whitespace is allowed"';
         }
     }
+
+
+    if (empty($_POST["ime"])) {
+        $imeErr = 'style="width:21px;height: 21px;" title = "First name is required"';
+    } else {
+        $ime = $_POST["ime"];
+        $imeErr = "";
+        if (!preg_match("/^[a-zA-Z ]*$/",$ime)) {
+            $imeErr = 'style="width:21px;height: 21px;" title = "Only letters and whitespace is allowed"';
+        }
+    }
+
+
 
     if (empty($_POST["spol"])) {
         $spolErr = 'style="width:21px;height: 21px;" title = "Gender is required"';

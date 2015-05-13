@@ -160,6 +160,28 @@ function ucitaj(id,test) {
 }
 
 
+function loadNews(id){
+    var ajax = new XMLHttpRequest();
+    ajax.onreadystatechange = function () {
+        if (ajax.readyState == 4 && ajax.status == 200) {
+
+            var Elements = document.getElementsByClassName("MenuItems");
+            for (var i = 0; i < Elements.length; i++) {
+                Elements[i].parentNode.className = "notClicked";
+            }
+                document.getElementById("Novosti").className = "Clicked";
+            document.getElementById("Page").innerHTML = ajax.responseText;
+            refreshPage();
+        }
+    };
+    ajax.open("GET", "HTML/" + id, true);
+    ajax.send();
+}
+
+
+
+
+
 // Ajax Validacija
 var xtreme = false;
 function validateByAjax() {

@@ -261,6 +261,7 @@ span.img1:hover:after {
     text-decoration: none;
     color: yellow;
     font-weight: bold;
+    cursor: pointer;
 }
 
 .BeoFestIMG {
@@ -508,9 +509,3 @@ audio:hover {
     font-size: small;
     text-decoration: underline;
 }
-
-
-
-
-
-

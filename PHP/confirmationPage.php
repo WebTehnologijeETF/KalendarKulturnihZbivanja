@@ -1,7 +1,6 @@
 <div>
 <div class="mainOkvirFormaB">
     <h2>Provjerite da li ste ispravno popunili kontakt formu</h2>
-<?$ime="";?>
     <p>Ime : <?=$ime?></p>
     <p>Prezime : <?=$prezime?></p>
     <p>Mail : <?=$emailA?></p>
