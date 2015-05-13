@@ -10,6 +10,7 @@
 </HEAD>
 <BODY>
 <noscript><?php include($_SERVER['DOCUMENT_ROOT']."/PHP/AlternateMenu.php"); ?></noscript>
+
 <div id="Podstranica">
     <?php
     $showFullPage = true;

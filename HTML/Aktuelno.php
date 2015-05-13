@@ -14,7 +14,7 @@
 <div id="Podstranica">
     <div class="mainOkvir1">
         <table id = "TableID">
-            <CAPTION>Kalendar Dešavanja<a id = "Kontrola" onclick="ucitaj('Proizvodi',2)">(Edit)</a></CAPTION>
+            <CAPTION>Kalendar Dešavanja<a id = "Kontrola" onclick="ucitaj('Proizvodi',2,0)">(Edit)</a></CAPTION>
             <TR>
                 <TH>Slika</TH>
                 <TH>Naziv</TH>

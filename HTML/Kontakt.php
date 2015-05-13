@@ -8,27 +8,22 @@
     <meta charset="utf-8">
     <SCRIPT src="../JS/js_1.js"></SCRIPT>
 </HEAD>
-<BODY>
+<BODY onload="changeToJS();">
 <?php
-$hide_menu = false;
 $noscript_menu = false;
 ?>
 <noscript>
     <?php include("../PHP/AlternateMenu.php"); ?>
-    <?php
-    $hide_menu = true;
-    $noscript_menu = true;
-    ?>
 </noscript>
-    <?php include("../PHP/Validacija.php"); ?>
-<!--Ovdje je potrebna manipulacija Menu-ima  u cilju jednog menu-a za NoScript, jednog menu-a za Script Ajax i jednog menu-a za Script no Ajax-->
-<?php if($noscript_menu==false) : ?>
-    <?php include("../PHP/AlternateMenu.php"); ?>
-<?php endif; ?>
-<!--End Comment-->
+<div id = "MenuWithScript" style="display: none">
+    <?php include("../PHP/MenuWithScript.php"); ?>
+</div>
 
+    <?php include("../PHP/Validacija.php"); ?>
         <?php if($ready_to_send==true) : ?>
-        <?php include("../PHP/confirmationPage.php"); ?>
+
+        <?php include("../PHP/confirmationPage.php");?>
+
         <?php else : ?>
 
 <div id="Podstranica">

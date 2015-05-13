@@ -136,27 +136,34 @@ function validateEMail() {
         pB.style.height = "0";
     }
 }
-
+function changeToJS(){
+    document.getElementById("MenuWithScript").style.display = "initial";
+}
 //Ajax Single Page Application
-function ucitaj(id,test) {
-    var ajax = new XMLHttpRequest();
-    ajax.onreadystatechange = function () {
-        if (ajax.readyState == 4 && ajax.status == 200) {
+function ucitaj(id,test,e) {
+    if(e==0) {
+        var ajax = new XMLHttpRequest();
+        ajax.onreadystatechange = function () {
+            if (ajax.readyState == 4 && ajax.status == 200) {
 
-            var Elements = document.getElementsByClassName("MenuItems");
-            for (var i = 0; i < Elements.length; i++) {
-                Elements[i].parentNode.className = "notClicked";
-            }
-            if (test == 1) {
-            document.getElementById(id).className = "Clicked";
-            }
+                var Elements = document.getElementsByClassName("MenuItems");
+                for (var i = 0; i < Elements.length; i++) {
+                    Elements[i].parentNode.className = "notClicked";
+                }
+                if (test == 1) {
+                    document.getElementById(id).className = "Clicked";
+                }
 
-            document.getElementById("Page").innerHTML = ajax.responseText;
-            refreshPage();
-        }
-    };
-    ajax.open("GET", "HTML/" + id + ".php", true);
-    ajax.send();
+                document.getElementById("Page").innerHTML = ajax.responseText;
+                refreshPage();
+            }
+        };
+        ajax.open("GET", "HTML/" + id + ".php", true);
+        ajax.send();
+    }
+    else{
+       var x = window.open("../index.php?open="+e,"_self")
+    }
 }
 
 
