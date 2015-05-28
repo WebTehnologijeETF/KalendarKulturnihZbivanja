@@ -1,5 +1,5 @@
 <?php
-$veza = new PDO("mysql:dbname=kalendarkulturnihzbivanja;host=localhost;charset=utf8", "wt8user", "wt8pass");
+$veza = new PDO("mysql:dbname=kalendarkulturnihzbivanja;host=127.11.174.2;charset=utf8", "wt8user", "wt8pass");
 $veza->exec("set names utf8");
 $rezultat = $veza->query("select id, naslov, link, tekst, detaljnije, autor, UNIX_TIMESTAMP(vrijeme) vrijeme2 from vijest order by vrijeme desc");
 
