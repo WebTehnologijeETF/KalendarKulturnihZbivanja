@@ -10,22 +10,26 @@ if (!$rezultat) :
 endif;
 
 //Unos komentara u bazu
-if ($_SERVER["REQUEST_METHOD"] == "POST" && !empty($_POST["autorPoruke"]) && !empty($_POST["comment"])):
+if ($_SERVER["REQUEST_METHOD"] == "POST"):
+    $vijestPoruke = $_POST["newsIDKomentar"];
+    if(isset($_POST["autorPoruke".$vijestPoruke])&&isset($_POST["commentPoruke".$vijestPoruke])){
     $stmt = $veza->prepare("INSERT INTO komentar (vijest, tekst , autor, email) VALUES (:vijest, :tekst , :autor, :email)");
     $stmt->bindParam(':vijest', $vijestPoruke);
     $stmt->bindParam(':tekst', $tekstPoruke);
     $stmt->bindParam(':autor', $autorPoruke);
     $stmt->bindParam(':email', $emailPoruke);
+        $tekstPoruke = $_POST["commentPoruke".$vijestPoruke];
+        $autorPoruke = $_POST["autorPoruke".$vijestPoruke];
 
-    $vijestPoruke = $_POST["newsIDKomentar"];
-    $tekstPoruke = $_POST["comment"];
-    $autorPoruke = $_POST["autorPoruke"];
-    if(isset($_POST["email"])&& preg_match('/(\w+)@((\w+).){2}.(\w+){2}/', $_POST["email"])):
-        $emailPoruke = $_POST["email"];
+    if(isset($_POST["email".$vijestPoruke])&& preg_match('/(\w+)@((\w+).){2}.(\w+){2}/', $_POST["email".$vijestPoruke])):
+        $emailPoruke = $_POST["email".$vijestPoruke];
     else:
         $emailPoruke = "";
     endif;
-    $stmt->execute();
+        if(trim($tekstPoruke) != "" && trim($autorPoruke) != ""){
+            $stmt->execute();
+        }
+    }
 endif;
 // Kraj unosa komentara u bazu
 

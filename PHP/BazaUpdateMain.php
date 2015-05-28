@@ -40,20 +40,20 @@
     <h2>Ostavi komentar :</h2>
 
     <div class = komentarOkvirForma>
-    <form id="usrform" action="<?php echo htmlspecialchars($_SERVER['PHP_SELF']);?>" method="POST">
+    <form id="usrform<?php echo $vijest['id'];?>" action="<?php echo htmlspecialchars($_SERVER['PHP_SELF']);?>" method="POST">
         <input type="hidden" name="newsIDKomentar" value="<?php echo $vijest['id'];?>" />
 
         <p>
-        <div class="KomentarformaWrap"><label for="autorPoruke">Autor:</label></div>
-        <div class="KomentarformaWrap"> <input type="text" name="autorPoruke" placeholder="Imenko Prezimenko"></div>
+        <div class="KomentarformaWrap"><label for="autorPoruke<?php echo $vijest['id'];?>">Autor:</label></div>
+        <div class="KomentarformaWrap"> <input type="text" name="autorPoruke<?php echo $vijest['id'];?>" placeholder="Imenko Prezimenko"></div>
         </p>
         <p>
-        <div class="KomentarformaWrap"><label  for="email">E-Mail:</label></div>
-        <div class="KomentarformaWrap"> <input  name="email" id="email"></div>
+        <div class="KomentarformaWrap"><label  for="email<?php echo $vijest['id'];?>">E-Mail:</label></div>
+        <div class="KomentarformaWrap"> <input  name="email<?php echo $vijest['id'];?>" id="email"></div>
         </p>
         <p>
-        <div class="KomentarformaWrap"> <label  for="comment">Komentar:</label></div>
-        <div class="komentarText"><textarea name="comment" form="usrform" placeholder="Pisi poruku ovdje"></textarea></div>
+        <div class="KomentarformaWrap"> <label  for="commentPoruke<?php echo $vijest['id'];?>">Komentar:</label></div>
+        <div class="komentarText"><textarea name="commentPoruke<?php echo $vijest['id'];?>" form="usrform<?php echo $vijest['id'];?>" placeholder="Pisi poruku ovdje"></textarea></div>
         </p>
         <div class="dugmeWrap">
             <div class="formaDugme1"> <p><input type="submit" value="Potvrdi"></p></div>
