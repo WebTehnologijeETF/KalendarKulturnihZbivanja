@@ -8,11 +8,9 @@
     <meta charset="utf-8">
     <SCRIPT src="../JS/js_1.js"></SCRIPT>
 </HEAD>
-<BODY onload="changeToJS();">
+<BODY>
 <noscript><?php include($_SERVER['DOCUMENT_ROOT']."/PHP/AlternateMenu.php"); ?></noscript>
-<div id = "MenuWithScript" style="display: none">
-    <?php include("../PHP/MenuWithScript.php"); ?>
-</div>
+
 <div id="Podstranica">
     <?php
     $showFullPage = true;
@@ -21,15 +19,15 @@
         $showFullPage = false;
     }
     ?>
-<div class="mainOkvir">
-    <?php include($_SERVER['DOCUMENT_ROOT']."/PHP/NovostiBazaUpdate.php");?>
-    <?php if(!$showFullPage):
-        $datax = $GLOBALS['dataFull'];
-        if(isset($_GET["data"])){
-            echo $datax[$_GET["data"]];
-        }
-     endif; ?>
-</div>
+    <div class="mainOkvir">
+        <?php include($_SERVER['DOCUMENT_ROOT']."/PHP/NovostiUpdate.php");?>
+        <?php if(!$showFullPage):
+            $datax = $GLOBALS['dataFull'];
+            if(isset($_GET["data"])){
+                echo $datax[$_GET["data"]];
+            }
+        endif; ?>
+    </div>
 
 </div>
 

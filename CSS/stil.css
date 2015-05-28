@@ -361,6 +361,22 @@ td > a {
     position: relative;
 }
 
+
+.komentarOkvirForma {
+    padding: 20px;
+    width: 450px;
+    height: 180px;
+    margin-top: 10px;
+    background: rgba(0, 0, 0, 0.8);
+    color: white;
+    font-family: Rockwell, Serif;
+    font-size: 85%;
+    position: relative;
+}
+
+
+
+
 .mainOkvirFormaC {
     padding: 20px;
     width: 700px;
@@ -390,6 +406,14 @@ audio:hover {
     width: 150px;
     padding-right: 10px;
     padding-top: 20px;
+    position: relative;
+    float: left;
+}
+
+.KomentarformaWrap {
+    width: 150px;
+    padding-right: 10px;
+    padding-top: 10px;
     position: relative;
     float: left;
 }
@@ -490,6 +514,16 @@ audio:hover {
     margin-top: 20px;
     width: 440px;
     height: 128px;
+    resize: none;
+}
+
+
+.komentarText > textarea {
+    position: relative;
+    float:left;
+    margin-top: 10px;
+    width: 220px;
+    height: 75px;
     resize: none;
 }
 
